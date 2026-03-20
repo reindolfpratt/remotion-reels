@@ -6,7 +6,6 @@ const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_KEY = process.env.SUPABASE_SERVICE_KEY;
 const IG_ACCOUNT_ID = process.env.IG_ACCOUNT_ID;
 const IG_ACCESS_TOKEN = process.env.IG_ACCESS_TOKEN;
-const FB_PAGE_ID = process.env.FB_PAGE_ID;
 const LINKEDIN_ACCESS_TOKEN = process.env.LINKEDIN_ACCESS_TOKEN;
 const LINKEDIN_ORG_ID = process.env.LINKEDIN_ORG_ID;
 
@@ -56,21 +55,10 @@ async function main() {
         creation_id: creationId,
         access_token: IG_ACCESS_TOKEN
       });
-      console.log("✅ Instagram Post Successful!");
+      console.log("✅ Instagram Post Successful! (Auto-shared to Facebook natively)");
     }
 
-    // 3. Post natively to Facebook Page
-    if (FB_PAGE_ID && IG_ACCESS_TOKEN) {
-      console.log("📘 Publishing natively to Facebook Page...");
-      await axios.post(`https://graph.facebook.com/v19.0/${FB_PAGE_ID}/videos`, {
-        file_url: videoUrl,
-        description: caption,
-        access_token: IG_ACCESS_TOKEN
-      });
-      console.log("✅ Facebook Page Post Successful!");
-    }
-
-    // 4. Post to LinkedIn
+    // 3. Post to LinkedIn
     if (LINKEDIN_ACCESS_TOKEN && LINKEDIN_ORG_ID) {
       console.log("💼 Publishing to LinkedIn...");
       await axios.post(`https://api.linkedin.com/v2/ugcPosts`, {
