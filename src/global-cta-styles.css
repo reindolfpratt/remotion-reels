@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+.gcta-bg {
+  background: linear-gradient(135deg, #0A192F 0%, #020c1b 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.gcta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  padding: 80px 40px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+}
+
+.gcta-logo-wrapper {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px; /* fixed height area for logo */
+}
+
+.gcta-logo-img {
+  max-width: 600px;
+  max-height: 250px;
+  object-fit: contain;
+}
+
+.gcta-brand-fallback {
+  font-size: 80px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  margin: 0;
+  text-align: center;
+}
+
+.gcta-brand-sub {
+  color: #FFA500; /* Gold/amber accent */
+}
+
+.gcta-tagline {
+  font-size: 55px;
+  font-weight: 600;
+  color: #E2E8F0;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 80px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.gcta-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.gcta-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.gcta-card-icon {
+  font-size: 60px;
+}
+
+.gcta-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.gcta-card-label {
+  font-size: 30px;
+  color: #94A3B8;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.gcta-card-value {
+  font-size: 45px;
+  color: #FFFFFF;
+  font-weight: 800;
+}

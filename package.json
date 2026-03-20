@@ -1,0 +1,28 @@
+{
+  "name": "remotion-reels",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "remotion studio src/index.ts",
+    "build": "remotion render src/index.ts InstagramReel out/video.mp4",
+    "build-cohby": "remotion render src/index.ts CohbyAd out/cohby-ad.mp4",
+    "build-uk": "remotion render src/index.ts UKChallenges out/uk-challenges.mp4",
+    "build-canada": "remotion render src/index.ts CanadaProspects out/canada-prospects.mp4",
+    "batch-render": "node scripts/render-week.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.438"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.438",
+    "@types/react": "^19.2.14",
+    "typescript": "^5.9.3"
+  }
+}
