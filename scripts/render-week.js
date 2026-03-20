@@ -1,6 +1,9 @@
 const { execSync } = require('child_process');
 const fs = require('fs');
 
+const FPS = 30;
+const CTA_DURATION_FRAMES = 180; // 6 seconds for the CTA screen
+
 const weekData = JSON.parse(fs.readFileSync('./src/data/week1.json', 'utf8'));
 
 console.log(`🚀 Starting Batch Generator for ${weekData.length} videos...`);
@@ -8,17 +11,26 @@ console.log(`🚀 Starting Batch Generator for ${weekData.length} videos...`);
 for (let i = 0; i < weekData.length; i++) {
   const video = weekData[i];
   const outputName = `out/week1-${video.id}.mp4`;
+  
+  // Calculate total frames: content duration + CTA screen
+  const contentSeconds = video.durationInSeconds || 30;
+  const contentFrames = Math.round(contentSeconds * FPS);
+  const totalFrames = contentFrames + CTA_DURATION_FRAMES;
+
   console.log(`\n================================`);
   console.log(`🎥 Rendering Video ${i + 1}/${weekData.length}: ${video.id}`);
-  console.log(`   Template: ${video.templateType} | Title: "${video.title}"`);
+  console.log(`   Template: ${video.templateType} | Duration: ${contentSeconds}s + 6s CTA = ${totalFrames / FPS}s total`);
   console.log(`================================`);
   
-  // Convert object to JSON string and properly escape quotes for a shell argument
-  const propsString = JSON.stringify(video).replace(/"/g, '\\"');
+  // Pass duration as part of props so the composition can read it
+  const videoWithFrames = { ...video, contentFrames, totalFrames };
+  const propsString = JSON.stringify(videoWithFrames).replace(/"/g, '\\"');
   
   try {
-    // Run remotion render programmatically via CLI
-    execSync(`npx remotion render src/index.ts DynamicReel ${outputName} --props="${propsString}"`, { stdio: 'inherit' });
+    execSync(
+      `npx remotion render src/index.ts DynamicReel ${outputName} --props="${propsString}" --frames=0-${totalFrames - 1}`,
+      { stdio: 'inherit' }
+    );
     console.log(`✅ Success: Generated ${outputName}`);
   } catch (err) {
     console.error(`❌ Failed to render ${video.id}`, err);

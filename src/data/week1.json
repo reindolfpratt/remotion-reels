@@ -1,16 +1,128 @@
 [
-  { "id": "kickoff-global", "templateType": "B", "title": "The Global Education Dream", "subtitle": "Your Gateway to Global Education Excellence.", "imageUrl": "https://loremflickr.com/1080/1920/university,architecture", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample.mp3" },
-  { "id": "why-choose", "templateType": "C", "title": "Why Choose Cohby?", "subtitle": "Don't navigate admissions alone. Let the experts guide you.", "imageUrl": "https://loremflickr.com/1080/1920/students,graduation", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample2.mp3" },
-  { "id": "spotlight-canada", "templateType": "A", "title": "Spotlight on Canada", "subtitle": "World-Class Education & Post-Grad Work Permits. Why Canada?", "imageUrl": "https://loremflickr.com/1080/1920/toronto,skyline", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample.mp3" },
-  { "id": "spotlight-uk", "templateType": "A", "title": "Spotlight on the UK", "subtitle": "Experience centuries of academic excellence in the UK.", "imageUrl": "https://loremflickr.com/1080/1920/london,street", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample2.mp3" },
-  { "id": "personal-statement", "templateType": "B", "title": "Mastering the Personal Statement", "subtitle": "Your personal statement is your story. Make it count.", "imageUrl": "https://loremflickr.com/1080/1920/laptop,typing", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample.mp3" },
-  { "id": "documents", "templateType": "C", "title": "Gathering Your Documents", "subtitle": "Transcripts? References? We organize it all so you stress less.", "imageUrl": "https://loremflickr.com/1080/1920/folders,documents", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample2.mp3" },
-  { "id": "visa-interview", "templateType": "B", "title": "Acing the Visa Interview", "subtitle": "Nervous about your Visa interview? We have a 95% success rate.", "imageUrl": "https://loremflickr.com/1080/1920/passport,visa", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample.mp3" },
-  { "id": "scholarships", "templateType": "A", "title": "Scholarships & Funding", "subtitle": "Studying abroad might be more affordable than you think. Let's find your scholarship.", "imageUrl": "https://loremflickr.com/1080/1920/success,finance", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample2.mp3" },
-  { "id": "denmark", "templateType": "C", "title": "Study in Denmark & Finland", "subtitle": "Discover top-tier education and highest quality of life in Scandinavia.", "imageUrl": "https://loremflickr.com/1080/1920/scandinavia,architecture", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample.mp3" },
-  { "id": "austria", "templateType": "A", "title": "Study in Austria", "subtitle": "Rich history, affordable tuition, and world-renowned universities in Austria.", "imageUrl": "https://loremflickr.com/1080/1920/austria,street", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample2.mp3" },
-  { "id": "departure", "templateType": "B", "title": "Preparing for Departure", "subtitle": "Got your acceptance letter? Here is how to prepare for your new life.", "imageUrl": "https://loremflickr.com/1080/1920/airport,luggage", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample.mp3" },
-  { "id": "accommodation", "templateType": "C", "title": "Finding Accommodation", "subtitle": "Campus dorms or private flats? We help you find your new home.", "imageUrl": "https://loremflickr.com/1080/1920/dorm,room", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample2.mp3" },
-  { "id": "inspiration", "templateType": "A", "title": "Sunday Inspiration", "subtitle": "Your global journey starts with a single step. Take it this week.", "imageUrl": "https://loremflickr.com/1080/1920/sunrise,city", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample.mp3" },
-  { "id": "consultation", "templateType": "B", "title": "Book Your Free Consultation", "subtitle": "Don't let another week pass. Contact Cohby Consult today.", "imageUrl": "https://loremflickr.com/1080/1920/professional,meeting", "audioUrl": "https://raw.githubusercontent.com/rafaelreis-hotmart/Audio-Sample-files/master/sample2.mp3" }
+  {
+    "id": "kickoff-global",
+    "templateType": "B",
+    "title": "You Deserve a World-Class Education",
+    "subtitle": "Thousands of students from Ghana study abroad every year — yet 70% say they wished they had started the process 6 months earlier. The earlier you begin, the more choices you have. Don't let time make the decision for you.",
+    "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "durationInSeconds": 40
+  },
+  {
+    "id": "why-choose",
+    "templateType": "C",
+    "title": "Not All Education Agents Are Equal",
+    "subtitle": "Many 'consultants' submit the same generic application for every student. Cohby Consult spends 1-on-1 time understanding your academic history, goals, and budget to find universities that actually fit YOU — not just universities that will accept anyone.",
+    "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "durationInSeconds": 42
+  },
+  {
+    "id": "spotlight-canada",
+    "templateType": "A",
+    "title": "Why Canada Works for African Students",
+    "subtitle": "Canada's Post-Graduation Work Permit lets you work for up to 3 years after graduation with a path to Permanent Residency. It is one of the only countries where your degree directly accelerates your immigration journey. Most students don't realise this until after they've already chosen elsewhere.",
+    "imageUrl": "https://images.unsplash.com/photo-1517935706615-2717063c2225?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "durationInSeconds": 45
+  },
+  {
+    "id": "spotlight-uk",
+    "templateType": "A",
+    "title": "The UK's 2-Year Graduate Route Visa",
+    "subtitle": "Since 2021, the UK allows all international graduates to remain and work for 2 years after graduation — no job offer required. This was removed in 2012 and brought back specifically because of demand. If you're considering the UK, this changes everything about the value of a UK degree.",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    "durationInSeconds": 45
+  },
+  {
+    "id": "personal-statement",
+    "templateType": "B",
+    "title": "Your Personal Statement Can Make or Break You",
+    "subtitle": "Admissions officers read hundreds of statements per week. The ones that stand out don't start with 'I have always been passionate about...' — they start with a specific story, a real moment, a precise reason. One compelling paragraph is worth more than five generic ones.",
+    "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    "durationInSeconds": 42
+  },
+  {
+    "id": "documents",
+    "templateType": "C",
+    "title": "The Documents That Sink Applications",
+    "subtitle": "The #1 reason strong candidates get rejected is not grades — it's incomplete or incorrectly certified documents. Transcripts must be notarised. References must be institution-stamped. Gaps in paperwork signal disorganisation to admissions teams. Get this right the first time.",
+    "imageUrl": "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    "durationInSeconds": 42
+  },
+  {
+    "id": "visa-interview",
+    "templateType": "B",
+    "title": "What Visa Officers Are Actually Looking For",
+    "subtitle": "A visa officer's job is to find reasons to say no. The three things they look for most are: ties to your home country, proof of financial self-sufficiency, and a credible academic plan. If you are unclear on any of those three things, your interview is already in trouble. Prepare accordingly.",
+    "imageUrl": "https://images.unsplash.com/photo-1569025743873-ea3a9ade89f9?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+    "durationInSeconds": 45
+  },
+  {
+    "id": "scholarships",
+    "templateType": "A",
+    "title": "Scholarships You've Probably Never Heard Of",
+    "subtitle": "The Chevening, Commonwealth, DAAD, and Erasmus+ scholarships are well-known. But many universities offer institution-level grants that cover 30-80% of tuition with far less competition. These are not widely publicised. A good consultant knows where to find them for your specific profile.",
+    "imageUrl": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+    "durationInSeconds": 45
+  },
+  {
+    "id": "denmark",
+    "templateType": "C",
+    "title": "Denmark & Finland: Underrated & Incredible",
+    "subtitle": "Scandinavia consistently ranks #1 and #2 globally for quality of life and student satisfaction. Several Danish and Finnish universities offer fully English-taught programmes with zero tuition for qualifying students. Yet African students are chronically underrepresented. That means less competition for spots.",
+    "imageUrl": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+    "durationInSeconds": 45
+  },
+  {
+    "id": "austria",
+    "templateType": "A",
+    "title": "Austria: Europe's Hidden Gem for Students",
+    "subtitle": "Universities in Vienna and Graz offer internationally-recognised degrees at a fraction of what UK or US institutions charge. Austrian universities emphasise research and independence — qualities that make their graduates highly employable across Europe. Vienna was ranked the most liveable city in the world for 4 consecutive years.",
+    "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+    "durationInSeconds": 45
+  },
+  {
+    "id": "departure",
+    "templateType": "B",
+    "title": "Got Your Acceptance? Here's What's Next",
+    "subtitle": "Getting your acceptance letter is only Step 3 of 12. You still need to confirm your enrolment, pay your deposit, apply for your student visa, book accommodation, arrange health insurance, and notify your home bank. Missing any of these steps — especially the visa — can cost you your place. Start immediately.",
+    "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+    "durationInSeconds": 45
+  },
+  {
+    "id": "accommodation",
+    "templateType": "C",
+    "title": "Don't Scramble for Housing Last Minute",
+    "subtitle": "University-managed accommodation fills up within days of offer letters being sent. Students who apply in the same week as their acceptance rarely get a room. Look at private student housing platforms like Student.com or Uniplaces at least 3 months before your start term. Your comfort directly affects your academic performance.",
+    "imageUrl": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+    "durationInSeconds": 45
+  },
+  {
+    "id": "inspiration",
+    "templateType": "A",
+    "title": "One Year From Now, Everything Can Change",
+    "subtitle": "Every student we have helped once sat exactly where you are — wondering if it was possible, if they were qualified, if the process was too complicated. The only difference between where they are now and where you are today is that they decided to make one phone call and ask. That decision cost nothing. The opportunity it unlocked was priceless.",
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+    "durationInSeconds": 48
+  },
+  {
+    "id": "consultation",
+    "templateType": "B",
+    "title": "Your First Step Costs Nothing",
+    "subtitle": "A free 30-minute consultation with Cohby Consult gives you a personalised shortlist of universities, a realistic timeline, and a clear understanding of true costs — all at no obligation. Most students leave knowing exactly what to do next. Some leave with the entire plan mapped out. You have nothing to lose and everything to gain.",
+    "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1080&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+    "durationInSeconds": 45
+  }
 ]
