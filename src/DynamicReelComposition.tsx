@@ -41,6 +41,10 @@ export const DynamicReelComposition: React.FC<DynamicVideoProps> = ({
           </AbsoluteFill>
         );
       case 'B':
+        const charsToShow = Math.floor(interpolate(frame, [30, 150], [0, title.length], { extrapolateRight: 'clamp' }));
+        const textToShow = title.substring(0, charsToShow);
+        const cursorOpacity = Math.floor(frame / 15) % 2 === 0 ? 1 : 0;
+        
         return (
            <AbsoluteFill className="dyn-template-b" style={{ backgroundColor: '#020c1b' }}>
              <Sequence from={0} durationInFrames={675}>
@@ -48,8 +52,11 @@ export const DynamicReelComposition: React.FC<DynamicVideoProps> = ({
                  <Img src={imageUrl} className="dyn-img" style={{ transform: `scale(1.1) translateX(${interpolate(frame, [0, 675], [0, -40])}px)` }} />
                </div>
                <div className="dyn-split-bottom">
-                 <h1 className="dyn-title-b" style={{ width: `${interpolate(frame, [30, 200], [0, 100], { extrapolateRight: 'clamp' })}%`, overflow: 'hidden', whiteSpace: 'nowrap' }}>{title}</h1>
-                 <h2 className="dyn-subtitle-b" style={{ opacity: interpolate(frame, [150, 180], [0, 1], { extrapolateRight: 'clamp' }) }}>{subtitle}</h2>
+                 <h1 className="dyn-title-b">
+                   {textToShow}
+                   <span style={{ opacity: cursorOpacity, color: '#FFA500' }}>|</span>
+                 </h1>
+                 <h2 className="dyn-subtitle-b" style={{ opacity: interpolate(frame, [170, 200], [0, 1], { extrapolateRight: 'clamp' }) }}>{subtitle}</h2>
                </div>
              </Sequence>
            </AbsoluteFill>

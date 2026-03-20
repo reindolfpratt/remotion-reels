@@ -70,6 +70,17 @@ async function main() {
       console.log("✅ Facebook Page Post Successful!");
     }
 
+    // 4. Post to LinkedInly to Facebook Page
+    if (FB_PAGE_ID && IG_ACCESS_TOKEN) {
+      console.log("📘 Publishing natively to Facebook Page...");
+      await axios.post(`https://graph.facebook.com/v19.0/${FB_PAGE_ID}/videos`, {
+        file_url: videoUrl,
+        description: caption,
+        access_token: IG_ACCESS_TOKEN
+      });
+      console.log("✅ Facebook Page Post Successful!");
+    }
+
     // 4. Post to LinkedIn
     if (LINKEDIN_ACCESS_TOKEN && LINKEDIN_ORG_ID) {
       console.log("💼 Publishing to LinkedIn...");
