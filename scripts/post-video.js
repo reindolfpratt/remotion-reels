@@ -71,24 +71,6 @@ async function main() {
     }
 
     // ─────────────────────────────────────────────
-    // 3. POST NATIVELY TO FACEBOOK PAGE
-    // Using graph-video.facebook.com (correct host for v19 video uploads)
-    // ─────────────────────────────────────────────
-    if (FB_PAGE_ID && IG_ACCESS_TOKEN) {
-      console.log("📘 Publishing natively to Facebook Page...");
-      await axios.post(
-        `https://graph-video.facebook.com/v19.0/${FB_PAGE_ID}/videos`,
-        {
-          file_url: videoUrl,
-          description: caption,
-          access_token: IG_ACCESS_TOKEN,
-          creative_folder_id: process.env.FB_CREATIVE_FOLDER_ID || ''
-        }
-      );
-      console.log("✅ Facebook Page Post Successful!");
-    }
-
-    // ─────────────────────────────────────────────
     // 4. POST TO LINKEDIN (as a link article)
     // ─────────────────────────────────────────────
     if (LINKEDIN_ACCESS_TOKEN && LINKEDIN_ORG_ID) {
