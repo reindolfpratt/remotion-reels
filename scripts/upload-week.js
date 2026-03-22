@@ -32,6 +32,7 @@ async function uploadAll() {
 
   const NOW = new Date();
   const rows = [];
+  let successfulIndex = 0;
 
   for (let i = 0; i < weekData.length; i++) {
     const video = weekData[i];
@@ -60,9 +61,11 @@ async function uploadAll() {
       .getPublicUrl(filename);
 
     // Schedule each video 7 days apart, first one backdated 5 mins for immediate test
-    const scheduledAt = i === 0
+    const scheduledAt = successfulIndex === 0
       ? new Date(NOW.getTime() - 5 * 60000).toISOString()
-      : new Date(NOW.getTime() + (i * 7 * 24 * 60 * 60 * 1000)).toISOString();
+      : new Date(NOW.getTime() + (successfulIndex * 7 * 24 * 60 * 60 * 1000)).toISOString();
+      
+    successfulIndex++;
 
     rows.push({
       video_id: `week1-${video.id}`,
