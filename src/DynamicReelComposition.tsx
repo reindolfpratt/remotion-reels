@@ -178,18 +178,7 @@ const SceneContent: React.FC<{ scene: SceneData; duration: number; index: number
         {index + 1}
       </div>
 
-      {/* Accent line */}
-      <div
-        style={{
-          position: 'absolute',
-          bottom: 360,
-          left: 60,
-          width: interpolate(frame, [10, 35], [0, 200], { extrapolateRight: 'clamp' }),
-          height: 6,
-          backgroundColor: '#FFD700',
-          borderRadius: 3,
-        }}
-      />
+
 
       {/* Text block — word-by-word stagger */}
       <div

@@ -74,5 +74,195 @@
         "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
       }
     ]
+  },
+  {
+    "id": "spotlight-canada",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    "scenes": [
+      {
+        "text": "Are you considering studying in Canada?",
+        "imageUrl": "https://images.unsplash.com/photo-1542157585-ef20bfcce579?w=1080&q=80"
+      },
+      {
+        "text": "Canada offers a post-graduation work permit extending up to 3 years.",
+        "imageUrl": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1080&q=80"
+      },
+      {
+        "text": "This provides a direct, highly-valued pathway to permanent residency.",
+        "imageUrl": "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "spotlight-uk",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    "scenes": [
+      {
+        "text": "The UK remains a top global destination for high-quality education.",
+        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+      },
+      {
+        "text": "With the 2-year Graduate Route Visa, you can easily secure employment.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+      },
+      {
+        "text": "No job offer is required immediately after graduation to qualify.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "personal-statement",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    "scenes": [
+      {
+        "text": "Admissions officers read thousands of generic personal statements every week.",
+        "imageUrl": "https://images.unsplash.com/photo-1510519138131-4ab32f52a6b8?w=1080&q=80"
+      },
+      {
+        "text": "Avoid cliches and overused transitions. Tell them your unique story instead.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
+      },
+      {
+        "text": "A strong, authentic narrative is the fastest way to an acceptance letter.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "documents",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+    "scenes": [
+      {
+        "text": "The number one reason strong university applicants still get rejected?",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+      },
+      {
+        "text": "Incorrect, poorly formatted, or completely missing application documents.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
+      },
+      {
+        "text": "Get it right perfectly the first time. We ensure no mistakes happen.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "visa-interview",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+    "scenes": [
+      {
+        "text": "Approaching your visa interview soon? You absolutely must nail three things.",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1080&q=80"
+      },
+      {
+        "text": "Show strong ties to your home country and credible financial proof.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+      },
+      {
+        "text": "Present a realistic, crystal-clear academic plan to the official.",
+        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "denmark",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+    "scenes": [
+      {
+        "text": "Scandinavia is often overlooked by African students seeking top education.",
+        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+      },
+      {
+        "text": "Countries like Denmark and Finland offer outstanding English-taught degrees.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+      },
+      {
+        "text": "Experience world-class living standards with surprisingly far less competition.",
+        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "austria",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+    "scenes": [
+      {
+        "text": "Vienna has consecutively won the title of the world's most liveable city.",
+        "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1080&q=80"
+      },
+      {
+        "text": "Austrian universities deliver excellent education at a much lower cost.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
+      },
+      {
+        "text": "Graduating here ensures extremely high employability naturally across all of Europe.",
+        "imageUrl": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "departure",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+    "scenes": [
+      {
+        "text": "So you have finally received your university acceptance letter?",
+        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+      },
+      {
+        "text": "You are actually only on step three of a twelve-step process.",
+        "imageUrl": "https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?w=1080&q=80"
+      },
+      {
+        "text": "Never assume the work is done. Securing housing and deadlines approach quickly.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "accommodation",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+    "scenes": [
+      {
+        "text": "University housing usually fills up entirely within mere days of offer letters.",
+        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1080&q=80"
+      },
+      {
+        "text": "We strongly advise students to apply for accommodation the exact same week.",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1080&q=80"
+      },
+      {
+        "text": "Always remember that your daily comfort directly impacts your final grades.",
+        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "consultation",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+    "scenes": [
+      {
+        "text": "Spend just 30 minutes with a dedicated expert from Cohby Consult.",
+        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+      },
+      {
+        "text": "We will provide you with a personalised shortlist and clear timeline.",
+        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1080&q=80"
+      },
+      {
+        "text": "A completely comprehensive step-by-step strategy, at absolutely zero cost to you.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+      }
+    ]
   }
 ]

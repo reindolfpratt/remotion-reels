@@ -27,7 +27,7 @@ const captions = {
 
 async function uploadAll() {
   // First wipe the queue
-  await supabase.from('content_queue').delete().neq('status', 'nonexistent');
+  await supabase.from('cohby_consult_content_queue').delete().neq('status', 'nonexistent');
   console.log('🗑️  Cleared existing queue');
 
   const NOW = new Date();
@@ -75,7 +75,7 @@ async function uploadAll() {
     console.log(`✅ Uploaded ${filename}`);
   }
 
-  const { error: insertError } = await supabase.from('content_queue').insert(rows);
+  const { error: insertError } = await supabase.from('cohby_consult_content_queue').insert(rows);
   if (insertError) {
     console.error('❌ Queue insert failed:', insertError.message);
   } else {
