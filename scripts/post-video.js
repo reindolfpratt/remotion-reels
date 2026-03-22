@@ -18,7 +18,7 @@ async function main() {
 
   // 1. Fetch the next scheduled pending video from Supabase
   const { data: queueData, error: dbError } = await supabase
-    .from('content_queue')
+    .from('cohby_consult_content_queue')
     .select('*')
     .eq('status', 'pending')
     .lte('scheduled_at', new Date().toISOString())
@@ -125,7 +125,7 @@ async function main() {
     // 5. MARK AS PUBLISHED IN SUPABASE
     // ─────────────────────────────────────────────
     await supabase
-      .from('content_queue')
+      .from('cohby_consult_content_queue')
       .update({ status: 'published' })
       .eq('id', video.id);
     console.log("✅ Successfully marked video as published in Queue.");
