@@ -8,7 +8,7 @@ import week1 from './data/week1.json';
 import './styles.css';
 
 const FPS = 30;
-const CTA_FRAMES = 180;
+const CTA_FRAMES = 120;
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -48,7 +48,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="DynamicReel"
         component={DynamicReelComposition as any}
-        // Default duration — overridden dynamically by calculateMetadata
+        // Default duration - overridden dynamically by calculateMetadata
         durationInFrames={900}
         fps={FPS}
         width={1080}

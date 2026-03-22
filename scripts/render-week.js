@@ -2,14 +2,25 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 
 const FPS = 30;
-const CTA_DURATION_FRAMES = 180; // 6 seconds for the CTA screen
+const CTA_DURATION_FRAMES = 120; // 4 seconds for the CTA screen
 
 const weekData = JSON.parse(fs.readFileSync('./src/data/week1.json', 'utf8'));
 
 console.log(`🚀 Starting Batch Generator for ${weekData.length} videos...`);
 
-for (let i = 0; i < weekData.length; i++) {
+// Render all videos in the dataset
+const videosToRender = weekData.length;
+console.log(`📝 Rendering all ${videosToRender} videos`);
+
+for (let i = 0; i < videosToRender; i++) {
   const video = weekData[i];
+  
+  // Skip if we already rendered it in manual testing previously
+  if (video.id === 'kickoff-global' || video.id === 'why-choose' || video.id === 'scholarships') {
+    console.log(`⏭️  Skipping previously rendered test video: ${video.id}`);
+    continue;
+  }
+
   const outputName = `out/week1-${video.id}.mp4`;
   
   // Calculate total frames: content duration + CTA screen
@@ -19,7 +30,7 @@ for (let i = 0; i < weekData.length; i++) {
 
   console.log(`\n================================`);
   console.log(`🎥 Rendering Video ${i + 1}/${weekData.length}: ${video.id}`);
-  console.log(`   Template: ${video.templateType} | Duration: ${contentSeconds}s + 6s CTA = ${totalFrames / FPS}s total`);
+  console.log(`   Duration: ${contentSeconds}s + 4s CTA = ${totalFrames / FPS}s total`);
   console.log(`================================`);
   
   // Pass duration as part of props so the composition can read it
@@ -37,4 +48,4 @@ for (let i = 0; i < weekData.length; i++) {
   }
 }
 
-console.log(`\n🎉 Batch Generation Pipeline Complete! Generated ${weekData.length} unique videos.`);
+console.log(`\n🎉 Batch Generation Pipeline Complete! Generated ${videosToRender} unique videos (testing mode).`);

@@ -81,7 +81,8 @@ async function main() {
         {
           file_url: videoUrl,
           description: caption,
-          access_token: IG_ACCESS_TOKEN
+          access_token: IG_ACCESS_TOKEN,
+          creative_folder_id: process.env.FB_CREATIVE_FOLDER_ID || ''
         }
       );
       console.log("✅ Facebook Page Post Successful!");
