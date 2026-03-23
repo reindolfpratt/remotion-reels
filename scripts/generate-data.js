@@ -36,9 +36,13 @@ async function generateData() {
         },
         {
           role: "user",
-          content: `Generate 14 NEW and UNIQUE video scripts (UK/Canada/Europe study consulting). 
+          content: `Generate 14 NEW and UNIQUE video scripts for Cohby Consult (study abroad firm helping students move to UK/Canada/Europe). 
+            CRITICAL INSTRUCTIONS:
+            - The content MUST be purely educational and add direct value to the student. 
+            - Do NOT talk about Cohby Consult's internal processes, "AI selection," or promotional jargon.
+            - Focus ONLY on actionable advice: How to apply for scholarships, increasing selection chances, writing a strong Statement of Purpose, adjusting to life abroad, visa interview tips, packing essentials, part-time job tips, etc.
             Existing topics to avoid: ${existingTopics}. 
-            Constraints: No em-dashes. Exactly 3 scenes per video. 
+            Constraints: No em-dashes (—). exactly 3 scenes per video.
             Format: [{ id, durationInSeconds: 16, caption, audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", scenes: [{ text, imageUrl: "" }] }]`
         }
       ]
@@ -103,11 +107,29 @@ async function generateData() {
       "https://images.unsplash.com/photo-1551485645-e499a58eab2c?q=80&w=1080&h=1920&fit=crop"
     ];
 
+    const energeticTracks = [
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3"
+    ];
+
     const cleanedVideos = newVideos.map((v, index) => {
       const reelNumber = lastReelNumber + index + 1;
       return {
         ...v,
         id: `reel-${reelNumber}`,
+        audioUrl: energeticTracks[index % energeticTracks.length],
         scenes: v.scenes.map(s => ({ 
           text: s.text.replace(/\[\d+\]/g, '').trim(), 
           imageUrl: safeUrls[Math.floor(Math.random() * safeUrls.length)]
