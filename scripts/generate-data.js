@@ -36,14 +36,16 @@ async function generateData() {
         },
         {
           role: "user",
-          content: `Generate 14 NEW and UNIQUE video scripts for Cohby Consult (study abroad firm helping students move to UK/Canada/Europe). 
-            CRITICAL INSTRUCTIONS:
-            - The content MUST be purely educational and add direct value to the student. 
-            - Do NOT talk about Cohby Consult's internal processes, "AI selection," or promotional jargon.
-            - Focus ONLY on actionable advice: How to apply for scholarships, increasing selection chances, writing a strong Statement of Purpose, adjusting to life abroad, visa interview tips, packing essentials, part-time job tips, etc.
-            Existing topics to avoid: ${existingTopics}. 
-            Constraints: No em-dashes (—). exactly 3 scenes per video.
-            Format: [{ id, durationInSeconds: 16, caption, audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", scenes: [{ text, imageUrl: "" }] }]`
+          content: `Generate 14 NEW and UNIQUE video scripts for Cohby Consult (a premium study abroad firm for UK/Canada/Europe).
+            
+            VALUE-FIRST INSTRUCTIONS:
+            - Content MUST be strictly educational and high-value for students. 
+            - Topics: Scholarship hacks, SOP writing, Visa tips, UK/Canada life, Part-time job strategies.
+            - Write in FULL, NATURAL sentences. Avoid robotic shorthand like "NHS free". 
+            - IMPORTANT: Do NOT include internal labels like "Scene 1:", "Part 2:", or "Text:". Just the content.
+            - Existing topics to avoid: ${existingTopics}. 
+            - Constraints: No em-dashes (—). Exactly 3 scenes per video. 
+            - Format: [{ id: "reel-X", durationInSeconds: 16, caption, audioUrl: "...", scenes: [{ text, imageUrl: "" }] }]`
         }
       ]
     }, {
@@ -53,7 +55,7 @@ async function generateData() {
     const aiOutput = response.data.choices[0].message.content;
     const newVideos = JSON.parse(aiOutput.match(/\[\s*\{[\s\S]*\}\s*\]/)[0]);
 
-    // Simple image fixup
+    // Cleanup and track rotation logic
     const safeUrls = [
       "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop",
       "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1080&h=1920&fit=crop",
@@ -130,10 +132,18 @@ async function generateData() {
         ...v,
         id: `reel-${reelNumber}`,
         audioUrl: energeticTracks[index % energeticTracks.length],
-        scenes: v.scenes.map(s => ({ 
-          text: s.text.replace(/\[\d+\]/g, '').trim(), 
-          imageUrl: safeUrls[Math.floor(Math.random() * safeUrls.length)]
-        }))
+        scenes: v.scenes.map(s => {
+          // Robust text cleaning: Strip "Scene 1:", "Part 2:", "1.", etc.
+          let cleanedText = s.text
+            .replace(/^(Scene\s*\d+\s*:|Part\s*\d+\s*:|Text\s*:|\d+\s*[\.\):])/i, '')
+            .replace(/\[\d+\]/g, '')
+            .trim();
+          
+          return {
+            text: cleanedText,
+            imageUrl: safeUrls[Math.floor(Math.random() * safeUrls.length)]
+          };
+        })
       };
     });
 
