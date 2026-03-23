@@ -55,9 +55,30 @@ async function main() {
       );
       const creationId = containerRes.data.id;
 
-      // Step B: Wait for Meta to encode the video (30 seconds)
-      console.log("⏳ Waiting 30 seconds for Meta to encode the Reel...");
-      await new Promise(r => setTimeout(r, 30000));
+      // Step B: Poll for Status (Wait until 'FINISHED')
+      console.log("⏳ Waiting for Instagram to process the video...");
+      let status = 'IN_PROGRESS';
+      let attempts = 0;
+      while (status !== 'FINISHED' && attempts < 20) {
+        attempts++;
+        await new Promise(r => setTimeout(r, 15000)); // Wait 15s between checks
+        
+        const statusRes = await axios.get(
+          `https://graph.facebook.com/v19.0/${creationId}`,
+          { params: { fields: 'status_code', access_token: IG_ACCESS_TOKEN } }
+        );
+        
+        status = statusRes.data.status_code;
+        console.log(`   - Status: ${status} (Check #${attempts})`);
+        
+        if (status === 'ERROR') {
+          throw new Error(`Meta failed to process video: ${statusRes.data.error_message || 'Unknown error'}`);
+        }
+      }
+
+      if (status !== 'FINISHED') {
+        throw new Error("Video processing timed out on Meta's side.");
+      }
 
       // Step C: Publish the container
       await axios.post(
