@@ -41,7 +41,8 @@ async function generateData() {
             VALUE-FIRST INSTRUCTIONS:
             - Content MUST be strictly educational and high-value for students. 
             - Topics: Scholarship hacks, SOP writing, Visa tips, UK/Canada life, Part-time job strategies.
-            - Write in FULL, NATURAL sentences. Avoid robotic shorthand like "NHS free". 
+            - Write in PUNCHY, NATURAL sentences. **MAX 12 WORDS PER SCENE**.
+            - One clear tip or fact per scene. No robotic shorthand like "NHS free". 
             - IMPORTANT: Do NOT include internal labels like "Scene 1:", "Part 2:", or "Text:". Just the content.
             - Existing topics to avoid: ${existingTopics}. 
             - Constraints: No em-dashes (—). Exactly 3 scenes per video. 
