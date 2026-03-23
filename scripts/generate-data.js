@@ -23,10 +23,12 @@ async function generateData() {
 
   const existingData = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
   const existingTopics = existingData.map(v => v.id).join(', ');
+  
+  console.log("📝 Existing IDs to avoid:", existingTopics);
 
   try {
     const response = await axios.post('https://api.perplexity.ai/chat/completions', {
-      model: "sonar-reasoning",
+      model: "sonar",
       messages: [
         {
           role: "system",
@@ -37,7 +39,7 @@ async function generateData() {
           content: `Generate 14 NEW and UNIQUE video scripts (UK/Canada/Europe study consulting). 
             Existing topics to avoid: ${existingTopics}. 
             Constraints: No em-dashes. Exactly 3 scenes per video. 
-            Format: [{ id, durationInSeconds: 16, caption, audioUrl, scenes: [{ text, imageUrl }] }]`
+            Format: [{ id, durationInSeconds: 16, caption, audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", scenes: [{ text, imageUrl: "" }] }]`
         }
       ]
     }, {
@@ -49,9 +51,12 @@ async function generateData() {
 
     // Simple image fixup
     const safeUrls = [
-      "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80",
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80",
-      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop",
+      "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1080&h=1920&fit=crop",
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1080&h=1920&fit=crop",
+      "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop",
+      "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop",
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
     ];
 
     const cleanedVideos = newVideos.map((v, index) => {
@@ -74,7 +79,11 @@ async function generateData() {
 
     console.log(`✅ Success! Generated Reels ${lastReelNumber + 1} to ${lastReelNumber + 14}`);
   } catch (err) {
-    console.error("❌ AI Generation failed:", err.message);
+    if (err.response) {
+      console.error(`❌ AI Generation failed (Status: ${err.response.status}):`, JSON.stringify(err.response.data, null, 2));
+    } else {
+      console.error("❌ AI Generation failed:", err.message);
+    }
   }
 }
 

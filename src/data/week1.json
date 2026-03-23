@@ -1,457 +1,281 @@
 [
   {
-    "id": "kickoff-global",
+    "id": "reel-53",
     "durationInSeconds": 16,
+    "caption": "Unlock UK study visa success with expert consulting. Avoid rejections and secure your future.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "70% of students in Ghana wish they started studying abroad 6 months earlier.",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
+        "text": "Struggling with UK student visa applications?",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "The earlier you begin, the more choices you have for top universities.",
-        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+        "text": "Our consultants guide you through requirements and boost approval rates.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Do not let time make the decision for you. Start planning your future today.",
-        "imageUrl": "https://images.unsplash.com/photo-1510519138131-4ab32f52a6b8?w=1080&q=80"
+        "text": "Contact Cohby Consult today for personalized UK study plans.",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "why-choose",
+    "id": "reel-54",
     "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-    "scenes": [
-      {
-        "text": "Many consultants submit the exact same generic application for every student.",
-        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1080&q=80"
-      },
-      {
-        "text": "Cohby Consult spends 1-on-1 time understanding your unique academic history.",
-        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
-      },
-      {
-        "text": "We find universities that naturally fit YOU, not just ones that accept anyone.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "uk-life",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-    "scenes": [
-      {
-        "text": "Adjusting to the UK as a new student can feel overwhelming at first.",
-        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
-      },
-      {
-        "text": "From the unpredictable weather to understanding the intense grading system.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
-      },
-      {
-        "text": "But with the right preparation and guidance you will easily thrive.",
-        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "scholarships",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-    "scenes": [
-      {
-        "text": "Hoping to secure a scholarship for your study abroad journey?",
-        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1080&q=80"
-      },
-      {
-        "text": "Competition is fierce so your application needs to stand out instantly.",
-        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1080&q=80"
-      },
-      {
-        "text": "Highlight your unique leadership experiences and apply as early as possible.",
-        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "spotlight-canada",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
-    "scenes": [
-      {
-        "text": "Are you considering studying in Canada?",
-        "imageUrl": "https://images.unsplash.com/photo-1542157585-ef20bfcce579?w=1080&q=80"
-      },
-      {
-        "text": "Canada offers a post-graduation work permit extending up to 3 years.",
-        "imageUrl": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1080&q=80"
-      },
-      {
-        "text": "This provides a direct, highly-valued pathway to permanent residency.",
-        "imageUrl": "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "spotlight-uk",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
-    "scenes": [
-      {
-        "text": "The UK remains a top global destination for high-quality education.",
-        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
-      },
-      {
-        "text": "With the 2-year Graduate Route Visa, you can easily secure employment.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
-      },
-      {
-        "text": "No job offer is required immediately after graduation to qualify.",
-        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "personal-statement",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
-    "scenes": [
-      {
-        "text": "Admissions officers read thousands of generic personal statements every week.",
-        "imageUrl": "https://images.unsplash.com/photo-1510519138131-4ab32f52a6b8?w=1080&q=80"
-      },
-      {
-        "text": "Avoid cliches and overused transitions. Tell them your unique story instead.",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
-      },
-      {
-        "text": "A strong, authentic narrative is the fastest way to an acceptance letter.",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "documents",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
-    "scenes": [
-      {
-        "text": "The number one reason strong university applicants still get rejected?",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
-      },
-      {
-        "text": "Incorrect, poorly formatted, or completely missing application documents.",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
-      },
-      {
-        "text": "Get it right perfectly the first time. We ensure no mistakes happen.",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "visa-interview",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
-    "scenes": [
-      {
-        "text": "Approaching your visa interview soon? You absolutely must nail three things.",
-        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1080&q=80"
-      },
-      {
-        "text": "Show strong ties to your home country and credible financial proof.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
-      },
-      {
-        "text": "Present a realistic, crystal-clear academic plan to the official.",
-        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "denmark",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
-    "scenes": [
-      {
-        "text": "Scandinavia is often overlooked by African students seeking top education.",
-        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
-      },
-      {
-        "text": "Countries like Denmark and Finland offer outstanding English-taught degrees.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
-      },
-      {
-        "text": "Experience world-class living standards with surprisingly far less competition.",
-        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "austria",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
-    "scenes": [
-      {
-        "text": "Vienna has consecutively won the title of the world's most liveable city.",
-        "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1080&q=80"
-      },
-      {
-        "text": "Austrian universities deliver excellent education at a much lower cost.",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
-      },
-      {
-        "text": "Graduating here ensures extremely high employability naturally across all of Europe.",
-        "imageUrl": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "departure",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
-    "scenes": [
-      {
-        "text": "So you have finally received your university acceptance letter?",
-        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
-      },
-      {
-        "text": "You are actually only on step three of a twelve-step process.",
-        "imageUrl": "https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?w=1080&q=80"
-      },
-      {
-        "text": "Never assume the work is done. Securing housing and deadlines approach quickly.",
-        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "accommodation",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
-    "scenes": [
-      {
-        "text": "University housing usually fills up entirely within mere days of offer letters.",
-        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1080&q=80"
-      },
-      {
-        "text": "We strongly advise students to apply for accommodation the exact same week.",
-        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1080&q=80"
-      },
-      {
-        "text": "Always remember that your daily comfort directly impacts your final grades.",
-        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "consultation",
-    "durationInSeconds": 16,
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
-    "scenes": [
-      {
-        "text": "Spend just 30 minutes with a dedicated expert from Cohby Consult.",
-        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
-      },
-      {
-        "text": "We will provide you with a personalised shortlist and clear timeline.",
-        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1080&q=80"
-      },
-      {
-        "text": "A completely comprehensive step-by-step strategy, at absolutely zero cost to you.",
-        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
-      }
-    ]
-  },
-  {
-    "id": "working_uk_limits",
-    "durationInSeconds": 16,
+    "caption": "Canada study permits made simple. Expert advice for international students.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "In the UK, international students at degree level can work up to 20 hours weekly during term time if sponsored by a track record institution.",
-        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+        "text": "Dreaming of studying in Canada?",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Full time work is allowed during vacations, before course start, and on placements integral to studies.",
-        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+        "text": "Navigate SDS and regular permit processes with our specialists.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Always verify your visa states work permission and check university limits to stay compliant.",
-        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+        "text": "Start your Canadian journey with Cohby Consult now.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "germany_study_work",
+    "id": "reel-55",
     "durationInSeconds": 16,
+    "caption": "Europe university applications decoded. Maximize your acceptance chances.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "Germany offers tuition free universities for international students with strong engineering programs.",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
+        "text": "Targeting top Europe unis like Oxford or Sorbonne?",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Non EU students can work 120 full days or 240 half days yearly, unlimited as research assistants.",
-        "imageUrl": "https://images.unsplash.com/photo-1542157585-ef20bfcce579?w=1080&q=80"
+        "text": "We optimize your SOPs, grades and recommendations.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Use university career services to find on campus jobs and build experience.",
-        "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1080&q=80"
+        "text": "Secure your spot. Book with Cohby Consult.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "norway_hidden_gem",
+    "id": "reel-56",
     "durationInSeconds": 16,
+    "caption": "Scholarships for UK studies await. Let us find yours.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "Norway provides high quality education in natural sciences with no tuition for international students.",
-        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+        "text": "Worried about UK tuition fees?",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Students can work part time without hour restrictions similar to locals after obtaining permit.",
-        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+        "text": "Our team identifies Chevening and university scholarships.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Explore scholarships for living costs in this stunning Nordic destination.",
-        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+        "text": "Apply smarter with Cohby Consult expertise.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "uk_graduate_visa",
+    "id": "reel-57",
     "durationInSeconds": 16,
+    "caption": "Post-study work visas in Canada. Plan your career now.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "UK Graduate route visa lets you stay 2 years post undergraduate or masters to work or seek jobs.",
-        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+        "text": "Finish studies, start working in Canada?",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "No job offer or salary minimum required, offering flexibility for career start.",
-        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+        "text": "Master PGWP applications with our proven strategies.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Doctoral graduates get 3 years to launch professional paths.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+        "text": "Future-proof your path. Cohby Consult helps.",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "canada_pgwp",
+    "id": "reel-58",
     "durationInSeconds": 16,
+    "caption": "Netherlands study options for tech enthusiasts.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "Canada Post Graduation Work Permit allows up to 3 years work for 2 year programs.",
-        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+        "text": "Tech studies in innovative Netherlands?",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Apply before study permit expires with degree proof and transcripts.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+        "text": "TU Delft and Eindhoven Uni applications simplified.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Shorter programs qualify for permits matching study length.",
-        "imageUrl": "https://images.unsplash.com/photo-1542157585-ef20bfcce579?w=1080&q=80"
+        "text": "Join Cohby Consult for tailored advice.",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "proof_of_funds_tips",
+    "id": "reel-59",
     "durationInSeconds": 16,
+    "caption": "Germany tuition-free masters. Your guide inside.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "Proof of funds shows you can cover tuition and living costs without public aid.",
-        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+        "text": "Study masters in Germany for free?",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Use bank statements, sponsor letters, or scholarships as evidence for visa applications.",
-        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+        "text": "Uni Heidelberg and LMU Munich applications decoded.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Maintain funds for required period, often 9 months living expenses plus first year fees.",
-        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+        "text": "Expert support from Cohby Consult.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "handling_visa_rejection",
+    "id": "reel-60",
     "durationInSeconds": 16,
+    "caption": "UK undergrad choices for high achievers.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "Visa rejection happens; review refusal letter for specific reasons like funds or intent.",
-        "imageUrl": "https://images.unsplash.com/photo-1542157585-ef20bfcce579?w=1080&q=80"
+        "text": "Best UK undergrad programs calling?",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Address gaps by gathering stronger documents and reapplying promptly.",
-        "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1080&q=80"
+        "text": "Imperial, UCL and LSE entry strategies.",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Consult experts to strengthen appeals or new applications effectively.",
-        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+        "text": "Elevate with Cohby Consult.",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "cultural_shocks_uk",
+    "id": "reel-61",
     "durationInSeconds": 16,
+    "caption": "Ireland study visas fast-tracked.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "Punctuality and queuing define UK culture; adapt to thrive socially.",
-        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+        "text": "Study in welcoming Ireland?",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Weather varies; pack layers and embrace indoor study routines.",
-        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+        "text": "Trinity College and UCD visa mastery.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Join clubs to build networks and ease transition smoothly.",
-        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+        "text": "Cohby Consult makes it seamless.",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "canada_off_campus_work",
+    "id": "reel-62",
     "durationInSeconds": 16,
+    "caption": "Canada business masters admissions.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "Canada allows 24 hours weekly off campus work during semesters for eligible students.",
-        "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1080&q=80"
+        "text": "MBA dreams in Canada?",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Full time permitted during scheduled breaks without extra permit.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+        "text": "Rotman, Ivey and Desautels GMAT coaching.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Exceeding limits risks student status; track hours carefully.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+        "text": "Partner with Cohby Consult.",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "france_work_rights",
+    "id": "reel-63",
     "durationInSeconds": 16,
+    "caption": "France Grande Ecoles entry secrets.",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     "scenes": [
       {
-        "text": "France permits 964 hours yearly work for non EU students, about 60 percent full time.",
-        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+        "text": "Elite French engineering schools?",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Valid from first year with student resident permit, even language courses.",
-        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+        "text": "Polytechnique and HEC prep with us.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Explore vibrant cities while gaining experience.",
-        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1080&q=80"
+        "text": "Cohby Consult unlocks doors.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-64",
+    "durationInSeconds": 16,
+    "caption": "Post-Brexit UK study perks.",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "UK studies post-Brexit advantages?",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Graduate visa and funding updates.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Navigate with Cohby Consult.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-65",
+    "durationInSeconds": 16,
+    "caption": "Sweden sustainable studies consulting.",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "Green programs in Sweden?",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "KTH and Uppsala sustainability focus.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Expert guidance from Cohby Consult.",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-66",
+    "durationInSeconds": 16,
+    "caption": "Switzerland research masters pathways.",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "Research excellence in Switzerland?",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "ETH Zurich and EPFL applications.",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Achieve more with Cohby Consult.",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   }
