@@ -61,10 +61,20 @@ Since your repository is **Private**, you have three main ways to share it:
 
 ## 4. The Execution Cycle
 
-### Local Generation
-When you are ready to create new videos:
-1.  **Render**: Run `npm run batch-render`. This will create `.mp4` files in the `out/` folder.
-2.  **Upload**: Run `node scripts/upload-week.js`. This uploads the files to Supabase and schedules them in the table.
+### The One-Click Weekly Workflow
+Every week, simply run:
+```bash
+npm run start-week
+```
+**What this does automatically:**
+1.  **Generate**: AI creates 14 fresh video scripts (2 per day).
+2.  **Render**: Your computer turns them into .mp4 files.
+3.  **Upload**: The scripts are uploaded to Supabase and scheduled 12 hours apart.
+
+### Original Local Steps (Manual)
+If you prefer to run things individually:
+1.  **Render**: Run `npm run batch-render`.
+2.  **Upload**: Run `node scripts/upload-week.js`.
 
 ### Automated Publishing
 1.  **Github Action**: Once the items are in the Supabase table, the GitHub Action (`.github/workflows/auto-publish.yml`) will automatically run twice a day (or whenever you trigger it manually).

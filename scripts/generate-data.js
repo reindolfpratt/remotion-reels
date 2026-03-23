@@ -12,7 +12,7 @@ async function generateData() {
     return;
   }
 
-  console.log("🤖 Asking AI for 10 new unique video topics...");
+  console.log("🤖 Asking AI for 14 new unique video topics (2 per day for 7 days)...");
 
   const existingData = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
   const existingTopics = existingData.map(v => v.id).join(', ');
@@ -27,10 +27,10 @@ async function generateData() {
         },
         {
           role: "user",
-          content: `Generate 10 NEW and UNIQUE video scripts (UK/Canada study consulting). 
+          content: `Generate 14 NEW and UNIQUE video scripts (UK/Canada/Europe study consulting). 
             Existing topics to avoid: ${existingTopics}. 
             Constraints: No em-dashes. Exactly 3 scenes per video. 
-            Format: [{ id, durationInSeconds: 16, audioUrl, scenes: [{ text, imageUrl }] }]`
+            Format: [{ id, durationInSeconds: 16, caption, audioUrl, scenes: [{ text, imageUrl }] }]`
         }
       ]
     }, {
@@ -55,10 +55,10 @@ async function generateData() {
       }))
     }));
 
-    const finalData = [...existingData, ...cleanedVideos];
-    fs.writeFileSync(DATA_PATH, JSON.stringify(finalData, null, 2));
+    // Fresh start for the week
+    fs.writeFileSync(DATA_PATH, JSON.stringify(cleanedVideos, null, 2));
 
-    console.log(`✅ Success! Added ${cleanedVideos.length} new videos to ${DATA_PATH}`);
+    console.log(`✅ Success! Generated 14 new videos in ${DATA_PATH}`);
   } catch (err) {
     console.error("❌ AI Generation failed:", err.message);
   }

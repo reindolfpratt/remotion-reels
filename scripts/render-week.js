@@ -15,11 +15,6 @@ console.log(`📝 Rendering all ${videosToRender} videos`);
 for (let i = 0; i < videosToRender; i++) {
   const video = weekData[i];
   
-  // Skip if we already rendered it in manual testing previously
-  if (video.id === 'kickoff-global' || video.id === 'why-choose' || video.id === 'scholarships') {
-    console.log(`⏭️  Skipping previously rendered test video: ${video.id}`);
-    continue;
-  }
 
   const outputName = `out/week1-${video.id}.mp4`;
   

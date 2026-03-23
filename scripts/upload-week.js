@@ -60,10 +60,10 @@ async function uploadAll() {
       .from('content_reels')
       .getPublicUrl(filename);
 
-    // Schedule each video 7 days apart, first one backdated 5 mins for immediate test
+    // Schedule each video 12 hours apart to fit 2 per day
     const scheduledAt = successfulIndex === 0
       ? new Date(NOW.getTime() - 5 * 60000).toISOString()
-      : new Date(NOW.getTime() + (successfulIndex * 7 * 24 * 60 * 60 * 1000)).toISOString();
+      : new Date(NOW.getTime() + (successfulIndex * 12 * 60 * 60 * 1000)).toISOString();
       
     successfulIndex++;
 
@@ -72,7 +72,7 @@ async function uploadAll() {
       status: 'pending',
       scheduled_at: scheduledAt,
       storage_url: publicUrl,
-      social_caption: captions[video.id] || `${video.title} 🌍 #StudyAbroad #CohbyConsult`
+      social_caption: video.caption || captions[video.id] || `Cohby Consult 🌍 #StudyAbroad #Education`
     });
 
     console.log(`✅ Uploaded ${filename}`);
@@ -84,7 +84,7 @@ async function uploadAll() {
   } else {
     console.log(`\n🎉 All ${rows.length} videos uploaded and queued!`);
     console.log('📌 Video 1 is backdated — ready for immediate test.');
-    console.log('📅 Videos 2-14 are scheduled one week apart.');
+    console.log('📅 Videos 2-14 are scheduled 12 hours apart (2 per day).');
   }
 }
 
