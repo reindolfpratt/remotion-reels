@@ -5,6 +5,7 @@ require('dotenv').config();
 // Configuration
 const API_KEY = process.env.PERPLEXITY_API_KEY; 
 const DATA_PATH = './src/data/week1.json';
+const COUNT_PATH = './src/data/count.json';
 
 async function generateData() {
   if (!API_KEY) {
@@ -12,7 +13,13 @@ async function generateData() {
     return;
   }
 
-  console.log("🤖 Asking AI for 14 new unique video topics (2 per day for 7 days)...");
+  // Load counter
+  let lastReelNumber = 0;
+  if (fs.existsSync(COUNT_PATH)) {
+    lastReelNumber = JSON.parse(fs.readFileSync(COUNT_PATH, 'utf8')).lastReelNumber;
+  }
+
+  console.log(`🤖 Asking AI for 14 new unique video topics (Starting from Reel #${lastReelNumber + 1})...`);
 
   const existingData = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
   const existingTopics = existingData.map(v => v.id).join(', ');
@@ -47,18 +54,25 @@ async function generateData() {
       "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
     ];
 
-    const cleanedVideos = newVideos.map(v => ({
-      ...v,
-      scenes: v.scenes.map(s => ({ 
-        text: s.text.replace(/\[\d+\]/g, '').trim(), 
-        imageUrl: safeUrls[Math.floor(Math.random() * safeUrls.length)]
-      }))
-    }));
+    const cleanedVideos = newVideos.map((v, index) => {
+      const reelNumber = lastReelNumber + index + 1;
+      return {
+        ...v,
+        id: `reel-${reelNumber}`,
+        scenes: v.scenes.map(s => ({ 
+          text: s.text.replace(/\[\d+\]/g, '').trim(), 
+          imageUrl: safeUrls[Math.floor(Math.random() * safeUrls.length)]
+        }))
+      };
+    });
+
+    // Update Counter
+    fs.writeFileSync(COUNT_PATH, JSON.stringify({ lastReelNumber: lastReelNumber + 14 }, null, 2));
 
     // Fresh start for the week
     fs.writeFileSync(DATA_PATH, JSON.stringify(cleanedVideos, null, 2));
 
-    console.log(`✅ Success! Generated 14 new videos in ${DATA_PATH}`);
+    console.log(`✅ Success! Generated Reels ${lastReelNumber + 1} to ${lastReelNumber + 14}`);
   } catch (err) {
     console.error("❌ AI Generation failed:", err.message);
   }

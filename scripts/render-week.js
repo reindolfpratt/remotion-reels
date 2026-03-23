@@ -16,7 +16,7 @@ for (let i = 0; i < videosToRender; i++) {
   const video = weekData[i];
   
 
-  const outputName = `out/week1-${video.id}.mp4`;
+  const outputName = `out/${video.id}.mp4`;
   
   // Calculate total frames: content duration + CTA screen
   const contentSeconds = video.durationInSeconds || 30;

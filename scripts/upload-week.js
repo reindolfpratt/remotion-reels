@@ -36,7 +36,7 @@ async function uploadAll() {
 
   for (let i = 0; i < weekData.length; i++) {
     const video = weekData[i];
-    const filename = `week1-${video.id}.mp4`;
+    const filename = `${video.id}.mp4`;
     const filepath = path.resolve(__dirname, `../out/${filename}`);
 
     if (!fs.existsSync(filepath)) {
@@ -68,11 +68,11 @@ async function uploadAll() {
     successfulIndex++;
 
     rows.push({
-      video_id: `week1-${video.id}`,
+      video_id: video.id,
       status: 'pending',
       scheduled_at: scheduledAt,
       storage_url: publicUrl,
-      social_caption: video.caption || captions[video.id] || `Cohby Consult 🌍 #StudyAbroad #Education`
+      social_caption: video.caption || `Cohby Consult 🌍 #StudyAbroad #Education`
     });
 
     console.log(`✅ Uploaded ${filename}`);
@@ -83,8 +83,7 @@ async function uploadAll() {
     console.error('❌ Queue insert failed:', insertError.message);
   } else {
     console.log(`\n🎉 All ${rows.length} videos uploaded and queued!`);
-    console.log('📌 Video 1 is backdated — ready for immediate test.');
-    console.log('📅 Videos 2-14 are scheduled 12 hours apart (2 per day).');
+    console.log('📅 Videos are scheduled 12 hours apart (2 per day).');
   }
 }
 
