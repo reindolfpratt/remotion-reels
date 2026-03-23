@@ -264,5 +264,195 @@
         "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
       }
     ]
+  },
+  {
+    "id": "working_uk_limits",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "In the UK, international students at degree level can work up to 20 hours weekly during term time if sponsored by a track record institution.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+      },
+      {
+        "text": "Full time work is allowed during vacations, before course start, and on placements integral to studies.",
+        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+      },
+      {
+        "text": "Always verify your visa states work permission and check university limits to stay compliant.",
+        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "germany_study_work",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "Germany offers tuition free universities for international students with strong engineering programs.",
+        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1080&q=80"
+      },
+      {
+        "text": "Non EU students can work 120 full days or 240 half days yearly, unlimited as research assistants.",
+        "imageUrl": "https://images.unsplash.com/photo-1542157585-ef20bfcce579?w=1080&q=80"
+      },
+      {
+        "text": "Use university career services to find on campus jobs and build experience.",
+        "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "norway_hidden_gem",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "Norway provides high quality education in natural sciences with no tuition for international students.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+      },
+      {
+        "text": "Students can work part time without hour restrictions similar to locals after obtaining permit.",
+        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+      },
+      {
+        "text": "Explore scholarships for living costs in this stunning Nordic destination.",
+        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "uk_graduate_visa",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "UK Graduate route visa lets you stay 2 years post undergraduate or masters to work or seek jobs.",
+        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+      },
+      {
+        "text": "No job offer or salary minimum required, offering flexibility for career start.",
+        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+      },
+      {
+        "text": "Doctoral graduates get 3 years to launch professional paths.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "canada_pgwp",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "Canada Post Graduation Work Permit allows up to 3 years work for 2 year programs.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+      },
+      {
+        "text": "Apply before study permit expires with degree proof and transcripts.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+      },
+      {
+        "text": "Shorter programs qualify for permits matching study length.",
+        "imageUrl": "https://images.unsplash.com/photo-1542157585-ef20bfcce579?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "proof_of_funds_tips",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "Proof of funds shows you can cover tuition and living costs without public aid.",
+        "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1080&q=80"
+      },
+      {
+        "text": "Use bank statements, sponsor letters, or scholarships as evidence for visa applications.",
+        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+      },
+      {
+        "text": "Maintain funds for required period, often 9 months living expenses plus first year fees.",
+        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "handling_visa_rejection",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "Visa rejection happens; review refusal letter for specific reasons like funds or intent.",
+        "imageUrl": "https://images.unsplash.com/photo-1542157585-ef20bfcce579?w=1080&q=80"
+      },
+      {
+        "text": "Address gaps by gathering stronger documents and reapplying promptly.",
+        "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1080&q=80"
+      },
+      {
+        "text": "Consult experts to strengthen appeals or new applications effectively.",
+        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "cultural_shocks_uk",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "Punctuality and queuing define UK culture; adapt to thrive socially.",
+        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+      },
+      {
+        "text": "Weather varies; pack layers and embrace indoor study routines.",
+        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+      },
+      {
+        "text": "Join clubs to build networks and ease transition smoothly.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "canada_off_campus_work",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "Canada allows 24 hours weekly off campus work during semesters for eligible students.",
+        "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1080&q=80"
+      },
+      {
+        "text": "Full time permitted during scheduled breaks without extra permit.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+      },
+      {
+        "text": "Exceeding limits risks student status; track hours carefully.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1080&q=80"
+      }
+    ]
+  },
+  {
+    "id": "france_work_rights",
+    "durationInSeconds": 16,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "scenes": [
+      {
+        "text": "France permits 964 hours yearly work for non EU students, about 60 percent full time.",
+        "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1080&q=80"
+      },
+      {
+        "text": "Valid from first year with student resident permit, even language courses.",
+        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1080&q=80"
+      },
+      {
+        "text": "Explore vibrant cities while gaining experience.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1080&q=80"
+      }
+    ]
   }
 ]
