@@ -9,6 +9,7 @@
     "build-cohby": "remotion render src/index.ts CohbyAd out/cohby-ad.mp4",
     "build-uk": "remotion render src/index.ts UKChallenges out/uk-challenges.mp4",
     "build-canada": "remotion render src/index.ts CanadaProspects out/canada-prospects.mp4",
+    "generate-data": "node scripts/generate-data.js",
     "batch-render": "node scripts/render-week.js"
   },
   "keywords": [],
