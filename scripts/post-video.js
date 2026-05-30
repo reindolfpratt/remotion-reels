@@ -21,7 +21,6 @@ async function main() {
     .from('cohby_consult_content_queue')
     .select('*')
     .eq('status', 'pending')
-    .lte('scheduled_at', new Date().toISOString())
     .order('scheduled_at', { ascending: true })
     .limit(1);
 
