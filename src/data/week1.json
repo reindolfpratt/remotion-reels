@@ -1,281 +1,261 @@
 [
   {
-    "id": "reel-109",
+    "id": "reel-193",
     "durationInSeconds": 16,
-    "caption": "Unlock the Erasmus Mundus Scholarship: Full funding for Master's in Europe! Study in multiple countries with tuition covered.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "caption": "Scholarship applications are won before the form is even opened. Learn the three research filters that save time and improve your chances.",
+    "audioUrl": "music/AVAION - Broken (Lyrics).mp3",
     "scenes": [
       {
-        "text": "The Erasmus Mundus Joint Master's Scholarships offer full coverage including tuition fees, travel costs, health insurance and a living allowance for students pursuing master's programs across two or more European countries.",
-        "imageUrl": "https://images.unsplash.com/photo-1773332598451-8a0a59941912?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "This prestigious program funded by the European Union welcomes applicants from all nationalities who demonstrate strong academic records and a passion for international study.",
-        "imageUrl": "https://images.unsplash.com/photo-1655964581196-14735105c38c?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Apply early for the 2026 intake by preparing your transcripts, proof of English proficiency and a compelling statement of purpose. Cohby Consult guides you through every step.",
-        "imageUrl": "https://images.unsplash.com/photo-1681077375948-3df67cf1a95e?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-110",
-    "durationInSeconds": 16,
-    "caption": "Chevening Scholarships: Fund your UK Master's with full support for leaders.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-    "scenes": [
-      {
-        "text": "Chevening Scholarships from the UK government fully fund one-year master's degrees at top universities like Oxford, Cambridge and LSE for future global leaders.",
-        "imageUrl": "https://images.unsplash.com/photo-1773332585956-2d0e8ac80cb6?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Eligibility focuses on leadership potential, academic excellence and a clear vision for positive impact in your home country upon return.",
+        "text": "Start by filtering scholarships by country, level of study, and your exact intake, because many students waste hours on awards they cannot actually use.",
         "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Strengthen your application with tailored leadership examples and work experience. Our experts at Cohby Consult help craft standout essays for 2026 deadlines.",
-        "imageUrl": "https://images.unsplash.com/photo-1531674842274-9563aa15686f?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-111",
-    "durationInSeconds": 16,
-    "caption": "Vanier Canada Graduate Scholarships: Secure $50,000 yearly for PhD research.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-    "scenes": [
-      {
-        "text": "Vanier Canada Graduate Scholarships provide up to fifty thousand dollars annually for three years to exceptional doctoral students demonstrating leadership and research potential.",
-        "imageUrl": "https://images.unsplash.com/photo-1622470190232-81df3782484b?q=80&w=1080&h=1920&fit=crop"
+        "text": "Then match your profile to the scholarship rules, such as grades, leadership, financial need, or field of study, so every application feels tailored.",
+        "imageUrl": "https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Nominated by Canadian universities, these awards prioritize health research, natural sciences, engineering, social sciences and humanities fields.",
-        "imageUrl": "https://images.unsplash.com/photo-1654546156234-e25e174ba602?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Boost your nomination chances with a strong research proposal and leadership portfolio. Cohby Consult connects you to ideal universities for 2026 applications.",
-        "imageUrl": "https://images.unsplash.com/photo-1558023784-f8343393cb06?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-112",
-    "durationInSeconds": 16,
-    "caption": "Master SOP Structure: Hook, Story, Fit for UK/Canada Visas.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
-    "scenes": [
-      {
-        "text": "Start your Statement of Purpose with a compelling hook that showcases your unique motivation for studying abroad in the UK or Canada.",
-        "imageUrl": "https://images.unsplash.com/photo-1616428394230-ba242d33e3ba?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Weave in your academic journey, relevant experiences and specific reasons why the chosen program and university perfectly align with your career goals.",
-        "imageUrl": "https://images.unsplash.com/photo-1564910443496-5fd2d76b47fa?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Conclude by outlining future contributions to your field and home country. Cohby Consult reviews drafts to ensure visa officer approval.",
-        "imageUrl": "https://images.unsplash.com/photo-1622126195600-41efc0b028e2?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-113",
-    "durationInSeconds": 16,
-    "caption": "UK Visa Tip: Prove Genuine Intent with Ties to Home.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
-    "scenes": [
-      {
-        "text": "UK student visa officers prioritize evidence of genuine intent, so highlight strong family, professional and financial ties that guarantee your return home after studies.",
-        "imageUrl": "https://images.unsplash.com/photo-1655964581196-14735105c38c?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Include detailed bank statements covering at least nine months and a clear explanation of funding sources to demonstrate financial stability.",
-        "imageUrl": "https://images.unsplash.com/photo-1581362072978-14998d01fdaa?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Practice concise answers for the credibility interview. Cohby Consult prepares you with mock sessions for seamless 2026 visa success.",
-        "imageUrl": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-114",
-    "durationInSeconds": 16,
-    "caption": "Canada Visa Hack: Tie Funds to GIC for Faster Approval.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
-    "scenes": [
-      {
-        "text": "For Canada study permits, link your Guaranteed Investment Certificate directly to tuition and living costs in your application to prove sufficient funds upfront.",
-        "imageUrl": "https://images.unsplash.com/photo-1658235081562-a7f50e7e05b6?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Submit a detailed study plan explaining program choice, career benefits and post-graduation plans to address immigration intent concerns.",
-        "imageUrl": "https://images.unsplash.com/photo-1577643445874-a41763059685?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Use tracked courier services for document submission. Cohby Consult ensures error-free applications for quicker processing times.",
-        "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-115",
-    "durationInSeconds": 16,
-    "caption": "UK Life: Navigate NHS Access as International Student.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
-    "scenes": [
-      {
-        "text": "International students in the UK gain access to the National Health Service for free essential medical care upon registering with a local GP practice.",
-        "imageUrl": "https://images.unsplash.com/photo-1616428394230-ba242d33e3ba?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Carry your Biometric Residence Permit and university ID for appointments, and consider supplementary private insurance for dental or optical needs.",
-        "imageUrl": "https://images.unsplash.com/photo-1471974507711-fe913f4b4509?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Utilize university health centers for quick consultations. Cohby Consult shares city-specific guides for smooth healthcare integration.",
-        "imageUrl": "https://images.unsplash.com/photo-1494809610410-160faaed4de0?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-116",
-    "durationInSeconds": 16,
-    "caption": "Canada Winter Survival: Layer Smart for Sub-Zero Days.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
-    "scenes": [
-      {
-        "text": "In Canada, layer clothing with thermal base, fleece mid-layer and waterproof outerwear to combat temperatures dropping below minus twenty degrees Celsius.",
-        "imageUrl": "https://images.unsplash.com/photo-1629348879298-d8fd280d8ee0?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Invest in quality boots with grip, gloves and a balaclava to prevent frostbite during commutes to classes or part-time shifts.",
-        "imageUrl": "https://images.unsplash.com/photo-1773332585956-2d0e8ac80cb6?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Stay hydrated and use public transit apps for safe travel. Cohby Consult provides seasonal packing lists for regional climates.",
-        "imageUrl": "https://images.unsplash.com/photo-1564910443496-5fd2d76b47fa?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-117",
-    "durationInSeconds": 16,
-    "caption": "Part-Time Jobs UK: Target Campus Cafes for Flexible Hours.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
-    "scenes": [
-      {
-        "text": "University cafes and libraries in the UK offer part-time roles ideal for students, providing up to twenty hours weekly during term time with evening shifts.",
-        "imageUrl": "https://images.unsplash.com/photo-1494809610410-160faaed4de0?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Highlight customer service skills and availability in your CV, and check university job boards daily for openings.",
-        "imageUrl": "https://images.unsplash.com/photo-1562349275-f5e7360af2dd?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "National Insurance numbers are required for payroll. Cohby Consult coaches interview techniques for reliable income streams.",
-        "imageUrl": "https://images.unsplash.com/photo-1581362072978-14998d01fdaa?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-118",
-    "durationInSeconds": 16,
-    "caption": "Canada On-Campus Jobs: TA Roles Boost Resume & Pay.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
-    "scenes": [
-      {
-        "text": "Become a teaching assistant on Canadian campuses to earn up to fifteen dollars hourly while gaining academic experience unlimited by work permit hours.",
-        "imageUrl": "https://images.unsplash.com/photo-1629348879298-d8fd280d8ee0?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Apply through department postings if you excel in your courses, emphasizing subject knowledge and communication skills.",
-        "imageUrl": "https://images.unsplash.com/photo-1558021211-6d1403321394?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "These roles enhance postgraduate applications. Cohby Consult matches your skills to high-paying opportunities.",
+        "text": "Finally, apply early and keep one master document with your SOP, CV, transcripts, and recommendation letters ready for instant reuse.",
         "imageUrl": "https://images.unsplash.com/photo-1537202108838-e7072bad1927?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "reel-119",
+    "id": "reel-194",
     "durationInSeconds": 16,
-    "caption": "DAAD Scholarships Germany: Full Funding for Masters 2026.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+    "caption": "A strong SOP is not about sounding fancy. It is about showing clear purpose, proof, and future plans.",
+    "audioUrl": "music/Aaron Smith, Luvli - Dancin (Faul & Wad, Samaha, Loxivice Remix).mp3",
     "scenes": [
       {
-        "text": "DAAD Scholarships in Germany cover tuition, monthly stipends and travel for international master's students starting Fall 2026.",
-        "imageUrl": "https://images.unsplash.com/photo-1773332611612-ffdaa753afb1?q=80&w=1080&h=1920&fit=crop"
+        "text": "Open your SOP with one clear reason for choosing the course, and connect it directly to your academic or career goal.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332611476-6ec2ba68049f?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Target programs in engineering, sciences and humanities with applications requiring motivation letters and academic references.",
-        "imageUrl": "https://images.unsplash.com/photo-1531674842274-9563aa15686f?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Deadlines vary by program, so start now. Cohby Consult specializes in German visa and scholarship pairings.",
-        "imageUrl": "https://images.unsplash.com/photo-1564910443496-5fd2d76b47fa?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-120",
-    "durationInSeconds": 16,
-    "caption": "SOP Hack: Quantify Achievements for Europe Apps.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
-    "scenes": [
-      {
-        "text": "Elevate your SOP for European universities by quantifying achievements, like leading a team that increased project efficiency by thirty percent.",
+        "text": "Use specific examples from your studies, projects, or work experience, because generic claims do not help admissions teams trust your profile.",
         "imageUrl": "https://images.unsplash.com/photo-1658235081562-a7f50e7e05b6?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Connect metrics to program specifics, showing how university resources will amplify your impact.",
+        "text": "Close by showing why that country, university, and program are the right next step, and keep the tone honest and simple.",
+        "imageUrl": "https://images.unsplash.com/photo-1600195077077-7c815f540a3d?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-195",
+    "durationInSeconds": 16,
+    "caption": "Visa rejections often happen because of weak documents, not weak dreams. Learn how to present a cleaner, safer file.",
+    "audioUrl": "music/Aicha (Afro Soul).mp3",
+    "scenes": [
+      {
+        "text": "Make sure your finances are easy to explain, with clear bank statements, sponsor details, and source of funds that match your story.",
+        "imageUrl": "https://images.unsplash.com/photo-1537888692311-8a7fb3e9f374?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Check that every form, date, and document is consistent, because even small mismatches can create confusion in a visa file.",
+        "imageUrl": "https://images.unsplash.com/photo-1629348879298-d8fd280d8ee0?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Write a simple study plan that explains why you chose the course, how you will support yourself, and what you will do after graduation.",
         "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Avoid generic praise. Cohby Consult polishes your narrative for admissions edge.",
-        "imageUrl": "https://images.unsplash.com/photo-1597920940566-a77511f9327d?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "reel-121",
+    "id": "reel-196",
     "durationInSeconds": 16,
-    "caption": "Europe Visa Tip: CAS Letter Mastery for UK Tier 4.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+    "caption": "Want a part-time job abroad? The smartest students prepare before they land, not after they start searching.",
+    "audioUrl": "music/Alex Warren - Ordinary (Lyrics).mp3",
     "scenes": [
       {
-        "text": "Secure your UK Confirmation of Acceptance for Studies letter early by meeting deposit and document deadlines from your university.",
-        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1080&h=1920&fit=crop"
+        "text": "Build a short student CV with your skills, availability, education, and any customer service or volunteer experience.",
+        "imageUrl": "https://images.unsplash.com/photo-1575688588571-966e9b61f0b7?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Ensure it matches your visa application details exactly to avoid rejection during processing.",
-        "imageUrl": "https://images.unsplash.com/photo-1494809610410-160faaed4de0?q=80&w=1080&h=1920&fit=crop"
+        "text": "Search early for campus roles, retail jobs, cafes, and admin support, because the first few weeks often offer the best openings.",
+        "imageUrl": "https://images.unsplash.com/photo-1693921398753-c5d114e8ae6a?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Track status online post-submission. Cohby Consult verifies all for 100% compliance.",
+        "text": "Practice simple interview answers and local workplace etiquette so you can sound confident from the first call or message.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-197",
+    "durationInSeconds": 16,
+    "caption": "UK students should know this before arrival: your first month shapes your budget, routine, and stress level.",
+    "audioUrl": "music/Amy Winehouse - Back To Black.mp3",
+    "scenes": [
+      {
+        "text": "Set aside money for deposit, travel, groceries, and the first utility bill, because rent is rarely the only early expense.",
+        "imageUrl": "https://images.unsplash.com/photo-1600195077077-7c815f540a3d?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Open a local bank account, register your phone number, and learn your campus transport route as soon as possible.",
+        "imageUrl": "https://images.unsplash.com/photo-1622126195600-41efc0b028e2?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Join student groups early, because they can help you find housing advice, job leads, and practical support faster.",
+        "imageUrl": "https://images.unsplash.com/photo-1448584109583-8f5fe2e61544?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-198",
+    "durationInSeconds": 16,
+    "caption": "Canada life feels easier when you understand the daily systems that most new students ignore.",
+    "audioUrl": "music/Bakermat - Baianá (Official Video).mp3",
+    "scenes": [
+      {
+        "text": "Learn how public transport works in your city, because daily travel costs can quietly affect your monthly budget.",
+        "imageUrl": "https://images.unsplash.com/photo-1577643445874-a41763059685?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Buy groceries with a list and compare prices across stores, since food spending can rise fast when you eat out too often.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332598451-8a0a59941912?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Keep your study schedule realistic, because balancing classes, assignments, and work is what makes student life sustainable.",
+        "imageUrl": "https://images.unsplash.com/photo-1616428394230-ba242d33e3ba?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-199",
+    "durationInSeconds": 16,
+    "caption": "Scholarship essays get stronger when you stop writing about need alone and start proving impact.",
+    "audioUrl": "music/Benson Boone - Beautiful Things (Official Music Video).mp3",
+    "scenes": [
+      {
+        "text": "Show who you are through a real story, not just a list of achievements, so the reviewer remembers your application.",
+        "imageUrl": "https://images.unsplash.com/photo-1537202108838-e7072bad1927?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Explain how the scholarship will help you continue your studies, because funders want to see a clear purpose and outcome.",
+        "imageUrl": "https://images.unsplash.com/photo-1537202108838-e7072bad1927?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "End with the difference you plan to make after graduation, whether in your career, community, or home country.",
+        "imageUrl": "https://images.unsplash.com/photo-1558021211-6d1403321394?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-200",
+    "durationInSeconds": 16,
+    "caption": "A good university shortlist is not the biggest list. It is the most strategic one.",
+    "audioUrl": "music/Carry me home.mp3",
+    "scenes": [
+      {
+        "text": "Compare courses by curriculum, internship support, entry requirements, and total cost, not just by ranking alone.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332585956-2d0e8ac80cb6?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Check whether the university fits your academic background, because applying only to unrealistic options wastes valuable time.",
+        "imageUrl": "https://images.unsplash.com/photo-1597920940566-a77511f9327d?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Build a balanced shortlist with ambitious, realistic, and safe choices so you stay prepared for every outcome.",
+        "imageUrl": "https://images.unsplash.com/photo-1627556704302-624286467c65?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-201",
+    "durationInSeconds": 16,
+    "caption": "Many visa interviews sound hard only because students answer without structure. Use this simple approach instead.",
+    "audioUrl": "music/Coldplay - Hymn For The Weekend (Official Video).mp3",
+    "scenes": [
+      {
+        "text": "Answer why you chose the course in one clear sentence, then connect it to your background and future goals.",
+        "imageUrl": "https://images.unsplash.com/photo-1574100004472-e536d3b6bacc?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Keep your explanation consistent with your documents, because confidence matters less than accuracy and clarity.",
+        "imageUrl": "https://images.unsplash.com/photo-1574100004472-e536d3b6bacc?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Speak simply about your finances, university choice, and return plan, so your answers stay natural and believable.",
+        "imageUrl": "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-202",
+    "durationInSeconds": 16,
+    "caption": "Part-time work abroad is useful, but only if you manage it like a student first and a worker second.",
+    "audioUrl": "music/Coolio - Gangsta's Paradise (feat. L.V.).mp3",
+    "scenes": [
+      {
+        "text": "Choose shifts that do not damage your attendance, assignment deadlines, or exam preparation.",
+        "imageUrl": "https://images.unsplash.com/photo-1604136514790-b27086f6c36e?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Track your income and expenses each week, because small overspending habits can cancel out your earnings.",
+        "imageUrl": "https://images.unsplash.com/photo-1600195077077-7c815f540a3d?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Use your job to build communication, teamwork, and time management skills that help after graduation too.",
+        "imageUrl": "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-203",
+    "durationInSeconds": 16,
+    "caption": "Your study abroad plan becomes stronger when every document tells the same story.",
+    "audioUrl": "music/DERNIÈRE DANSE - Afro-Soul Cover (Goosebumps).mp3",
+    "scenes": [
+      {
+        "text": "Make sure your SOP, academic records, work history, and financial documents all support one clear academic direction.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "If there are gaps or changes in your profile, explain them honestly and briefly instead of leaving them unexplained.",
+        "imageUrl": "https://images.unsplash.com/photo-1537202108838-e7072bad1927?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "A consistent application gives admissions and visa teams fewer reasons to question your intent.",
+        "imageUrl": "https://images.unsplash.com/photo-1551485645-e499a58eab2c?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-204",
+    "durationInSeconds": 16,
+    "caption": "Europe can be a smart choice when students understand how to compare costs, language, and career value.",
+    "audioUrl": "music/Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers.mp3",
+    "scenes": [
+      {
+        "text": "Look beyond tuition and compare housing, transport, food, and city expenses before choosing a destination.",
+        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Check whether your program is taught in English or requires another language, because that changes both preparation and daily life.",
         "imageUrl": "https://images.unsplash.com/photo-1563265500-fa2ff1f4fc9d?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Pick a country that supports your long-term goals, not just the one that looks popular on social media.",
+        "imageUrl": "https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "reel-122",
+    "id": "reel-205",
     "durationInSeconds": 16,
-    "caption": "UK Part-Time: Retail Chains Hire Students Year-Round.",
-    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+    "caption": "The fastest way to improve your application is not by doing more. It is by doing the right things early.",
+    "audioUrl": "music/Dernière Danse (Afro Soul).mp3",
     "scenes": [
       {
-        "text": "Major UK retail chains like Tesco and Primark frequently hire international students for flexible weekend and holiday shifts paying minimum wage.",
-        "imageUrl": "https://images.unsplash.com/photo-1581362072978-14998d01fdaa?q=80&w=1080&h=1920&fit=crop"
+        "text": "Start with a timeline for tests, shortlisting, SOP writing, and document collection so you never rush the process.",
+        "imageUrl": "https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Tailor applications via company portals, highlighting reliability and quick learning ability.",
-        "imageUrl": "https://images.unsplash.com/photo-1531674842274-9563aa15686f?q=80&w=1080&h=1920&fit=crop"
+        "text": "Ask for feedback on your SOP and profile from someone who understands admissions, because self-review can miss weak points.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332611612-ffdaa753afb1?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Right to work checks are standard. Cohby Consult lists top employers by city.",
-        "imageUrl": "https://images.unsplash.com/photo-1597920940566-a77511f9327d?q=80&w=1080&h=1920&fit=crop"
+        "text": "Treat your application like a project with clear deadlines, and your chances of success become much easier to manage.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   }

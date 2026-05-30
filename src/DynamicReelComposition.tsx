@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Sequence, Img, interpolate, useCurrentFrame, useVideoConfig, Audio } from 'remotion';
+import { AbsoluteFill, Sequence, Img, interpolate, useCurrentFrame, useVideoConfig, Audio, staticFile } from 'remotion';
 import { GlobalCTA } from './components/GlobalCTA';
 import './dynamic-styles.css';
 
@@ -52,7 +52,9 @@ export const DynamicReelComposition: React.FC<DynamicVideoProps> = ({
 
   return (
     <AbsoluteFill className="dyn-root" style={{ backgroundColor: '#020c1b' }}>
-      <Audio src={audioUrl} volume={bgVolume} />
+      <Sequence from={-600}>
+        <Audio src={audioUrl.startsWith('http') ? audioUrl : staticFile(audioUrl)} volume={bgVolume} />
+      </Sequence>
 
       {scenes.map((scene, index) => {
         const sceneStart = index * framesPerScene;

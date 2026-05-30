@@ -11,6 +11,8 @@
     "build-canada": "remotion render src/index.ts CanadaProspects out/canada-prospects.mp4",
     "generate-data": "node scripts/generate-data.js",
     "batch-render": "node scripts/render-week.js",
+    "upload": "node scripts/upload-week.js",
+    "render-and-upload": "node scripts/render-week.js && node scripts/upload-week.js",
     "start-week": "node scripts/start-week.js"
   },
   "keywords": [],
