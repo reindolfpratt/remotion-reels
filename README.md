@@ -1,5 +1,9 @@
 # Cohby Consult - Automated Reel Generator & Publisher
 
+
+SHORTCUT: COMMAND TO RUN ALL: npm run start-week
+
+
 This repository contains the complete A-to-Z automation system for generating, scheduling, and automatically publishing marketing videos for Cohby Consult.
 
 ## System Architecture
@@ -52,9 +56,9 @@ After the `.mp4` files are fully generated in the `out/` folder, run:
 node scripts/upload-week.js
 ```
 **What this does:**
-1. Wipes the pending queue in your Supabase table (`cohby_consult_content_queue`).
+1. Checks the database for the latest scheduled video's date.
 2. Uploads every `.mp4` file from your `out/` folder into the `content_reels` storage bucket.
-3. Automatically spaces them out (scheduling 1 video every 7 days) and inserts them into the queue.
+3. Automatically appends them to the queue, scheduling them 12 hours apart starting after the latest scheduled video (or starting from now if the queue is empty/finished).
 
 ### Step 5: Automatic Publishing (The Cloud)
 You don't need to do anything for this step! 

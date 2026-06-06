@@ -1,10 +1,11 @@
 const { execSync } = require('child_process');
 const fs = require('fs');
+const path = require('path');
 
 const FPS = 30;
 const CTA_DURATION_FRAMES = 120; // 4 seconds for the CTA screen
 
-const weekData = JSON.parse(fs.readFileSync('./src/data/week1.json', 'utf8'));
+const weekData = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../src/data/week1.json'), 'utf8'));
 
 console.log(`🚀 Starting Batch Generator for ${weekData.length} videos...`);
 

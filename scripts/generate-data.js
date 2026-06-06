@@ -1,15 +1,16 @@
 const fs = require('fs');
+const path = require('path');
 const axios = require('axios');
 require('dotenv').config();
 
 // Configuration
-const API_KEY = process.env.PERPLEXITY_API_KEY; 
-const DATA_PATH = './src/data/week1.json';
-const COUNT_PATH = './src/data/count.json';
+const API_KEY = process.env.DEEPSEEK_API_KEY; 
+const DATA_PATH = path.resolve(__dirname, '../src/data/week1.json');
+const COUNT_PATH = path.resolve(__dirname, '../src/data/count.json');
 
 async function generateData() {
   if (!API_KEY) {
-    console.error("❌ Error: PERPLEXITY_API_KEY NOT found in .env file.");
+    console.error("❌ Error: DEEPSEEK_API_KEY NOT found in .env file.");
     return;
   }
 
@@ -27,8 +28,8 @@ async function generateData() {
   console.log("📝 Existing IDs to avoid:", existingTopics);
 
   try {
-    const response = await axios.post('https://api.perplexity.ai/chat/completions', {
-      model: "sonar",
+    const response = await axios.post('https://api.deepseek.com/chat/completions', {
+      model: "deepseek-v4-flash",
       messages: [
         {
           role: "system",
@@ -168,12 +169,21 @@ async function generateData() {
       "music/Zara Larsson - Lush Life (Lyrics).mp3"
     ];
 
+    // Shuffle tracks using Fisher-Yates algorithm for unbiased random rotation
+    const shuffledTracks = [...energeticTracks];
+    for (let i = shuffledTracks.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = shuffledTracks[i];
+      shuffledTracks[i] = shuffledTracks[j];
+      shuffledTracks[j] = temp;
+    }
+
     const cleanedVideos = newVideos.map((v, index) => {
       const reelNumber = lastReelNumber + index + 1;
       return {
         ...v,
         id: `reel-${reelNumber}`,
-        audioUrl: energeticTracks[index % energeticTracks.length],
+        audioUrl: shuffledTracks[index % shuffledTracks.length],
         scenes: v.scenes.map(s => {
           // Robust text cleaning: Strip "Scene 1:", "Part 2:", "1.", etc.
           let cleanedText = s.text

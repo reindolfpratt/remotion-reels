@@ -1,261 +1,281 @@
 [
   {
-    "id": "reel-193",
+    "id": "reel-207",
     "durationInSeconds": 16,
-    "caption": "Scholarship applications are won before the form is even opened. Learn the three research filters that save time and improve your chances.",
+    "caption": "Scholarship hacks for UK universities: How to find and win funding.",
     "audioUrl": "music/AVAION - Broken (Lyrics).mp3",
     "scenes": [
       {
-        "text": "Start by filtering scholarships by country, level of study, and your exact intake, because many students waste hours on awards they cannot actually use.",
-        "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Then match your profile to the scholarship rules, such as grades, leadership, financial need, or field of study, so every application feels tailored.",
-        "imageUrl": "https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Finally, apply early and keep one master document with your SOP, CV, transcripts, and recommendation letters ready for instant reuse.",
-        "imageUrl": "https://images.unsplash.com/photo-1537202108838-e7072bad1927?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-194",
-    "durationInSeconds": 16,
-    "caption": "A strong SOP is not about sounding fancy. It is about showing clear purpose, proof, and future plans.",
-    "audioUrl": "music/Aaron Smith, Luvli - Dancin (Faul & Wad, Samaha, Loxivice Remix).mp3",
-    "scenes": [
-      {
-        "text": "Open your SOP with one clear reason for choosing the course, and connect it directly to your academic or career goal.",
-        "imageUrl": "https://images.unsplash.com/photo-1773332611476-6ec2ba68049f?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Use specific examples from your studies, projects, or work experience, because generic claims do not help admissions teams trust your profile.",
-        "imageUrl": "https://images.unsplash.com/photo-1658235081562-a7f50e7e05b6?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Close by showing why that country, university, and program are the right next step, and keep the tone honest and simple.",
-        "imageUrl": "https://images.unsplash.com/photo-1600195077077-7c815f540a3d?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-195",
-    "durationInSeconds": 16,
-    "caption": "Visa rejections often happen because of weak documents, not weak dreams. Learn how to present a cleaner, safer file.",
-    "audioUrl": "music/Aicha (Afro Soul).mp3",
-    "scenes": [
-      {
-        "text": "Make sure your finances are easy to explain, with clear bank statements, sponsor details, and source of funds that match your story.",
-        "imageUrl": "https://images.unsplash.com/photo-1537888692311-8a7fb3e9f374?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Check that every form, date, and document is consistent, because even small mismatches can create confusion in a visa file.",
+        "text": "Many students worry about tuition fees, but UK universities offer numerous scholarships that go unnoticed. Start by checking the specific department you are applying to, as they often have their own funds.",
         "imageUrl": "https://images.unsplash.com/photo-1629348879298-d8fd280d8ee0?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Write a simple study plan that explains why you chose the course, how you will support yourself, and what you will do after graduation.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
+        "text": "Next, look for external scholarships from organizations like the Commonwealth or Chevening. These usually require a strong personal statement that connects your goals to the scholarship's mission.",
+        "imageUrl": "https://images.unsplash.com/photo-1658235081562-a7f50e7e05b6?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Finally, apply early and tailor each application carefully. Show how you will contribute to your field and community, and remember that persistence often pays off more than a perfect GPA.",
+        "imageUrl": "https://images.unsplash.com/photo-1681077375948-3df67cf1a95e?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "reel-196",
+    "id": "reel-208",
     "durationInSeconds": 16,
-    "caption": "Want a part-time job abroad? The smartest students prepare before they land, not after they start searching.",
-    "audioUrl": "music/Alex Warren - Ordinary (Lyrics).mp3",
+    "caption": "SOP writing tips: Stand out from thousands of applicants.",
+    "audioUrl": "music/Aaron Smith, Luvli - Dancin (Faul & Wad, Samaha, Loxivice Remix).mp3",
     "scenes": [
       {
-        "text": "Build a short student CV with your skills, availability, education, and any customer service or volunteer experience.",
-        "imageUrl": "https://images.unsplash.com/photo-1575688588571-966e9b61f0b7?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Search early for campus roles, retail jobs, cafes, and admin support, because the first few weeks often offer the best openings.",
-        "imageUrl": "https://images.unsplash.com/photo-1693921398753-c5d114e8ae6a?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Practice simple interview answers and local workplace etiquette so you can sound confident from the first call or message.",
-        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-197",
-    "durationInSeconds": 16,
-    "caption": "UK students should know this before arrival: your first month shapes your budget, routine, and stress level.",
-    "audioUrl": "music/Amy Winehouse - Back To Black.mp3",
-    "scenes": [
-      {
-        "text": "Set aside money for deposit, travel, groceries, and the first utility bill, because rent is rarely the only early expense.",
-        "imageUrl": "https://images.unsplash.com/photo-1600195077077-7c815f540a3d?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Open a local bank account, register your phone number, and learn your campus transport route as soon as possible.",
-        "imageUrl": "https://images.unsplash.com/photo-1622126195600-41efc0b028e2?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Join student groups early, because they can help you find housing advice, job leads, and practical support faster.",
+        "text": "Your statement of purpose is your chance to tell a story. Start with a specific moment that sparked your interest in the field, not a generic introduction about your childhood.",
         "imageUrl": "https://images.unsplash.com/photo-1448584109583-8f5fe2e61544?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-198",
-    "durationInSeconds": 16,
-    "caption": "Canada life feels easier when you understand the daily systems that most new students ignore.",
-    "audioUrl": "music/Bakermat - Baianá (Official Video).mp3",
-    "scenes": [
-      {
-        "text": "Learn how public transport works in your city, because daily travel costs can quietly affect your monthly budget.",
-        "imageUrl": "https://images.unsplash.com/photo-1577643445874-a41763059685?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Buy groceries with a list and compare prices across stores, since food spending can rise fast when you eat out too often.",
+        "text": "Then, connect that moment to concrete experiences: a project, a job, or a research paper. Explain what you learned and how it shaped your future goals, but avoid just listing accomplishments.",
         "imageUrl": "https://images.unsplash.com/photo-1773332598451-8a0a59941912?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Keep your study schedule realistic, because balancing classes, assignments, and work is what makes student life sustainable.",
-        "imageUrl": "https://images.unsplash.com/photo-1616428394230-ba242d33e3ba?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-199",
-    "durationInSeconds": 16,
-    "caption": "Scholarship essays get stronger when you stop writing about need alone and start proving impact.",
-    "audioUrl": "music/Benson Boone - Beautiful Things (Official Music Video).mp3",
-    "scenes": [
-      {
-        "text": "Show who you are through a real story, not just a list of achievements, so the reviewer remembers your application.",
-        "imageUrl": "https://images.unsplash.com/photo-1537202108838-e7072bad1927?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Explain how the scholarship will help you continue your studies, because funders want to see a clear purpose and outcome.",
-        "imageUrl": "https://images.unsplash.com/photo-1537202108838-e7072bad1927?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "End with the difference you plan to make after graduation, whether in your career, community, or home country.",
-        "imageUrl": "https://images.unsplash.com/photo-1558021211-6d1403321394?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-200",
-    "durationInSeconds": 16,
-    "caption": "A good university shortlist is not the biggest list. It is the most strategic one.",
-    "audioUrl": "music/Carry me home.mp3",
-    "scenes": [
-      {
-        "text": "Compare courses by curriculum, internship support, entry requirements, and total cost, not just by ranking alone.",
-        "imageUrl": "https://images.unsplash.com/photo-1773332585956-2d0e8ac80cb6?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Check whether the university fits your academic background, because applying only to unrealistic options wastes valuable time.",
-        "imageUrl": "https://images.unsplash.com/photo-1597920940566-a77511f9327d?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Build a balanced shortlist with ambitious, realistic, and safe choices so you stay prepared for every outcome.",
-        "imageUrl": "https://images.unsplash.com/photo-1627556704302-624286467c65?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-201",
-    "durationInSeconds": 16,
-    "caption": "Many visa interviews sound hard only because students answer without structure. Use this simple approach instead.",
-    "audioUrl": "music/Coldplay - Hymn For The Weekend (Official Video).mp3",
-    "scenes": [
-      {
-        "text": "Answer why you chose the course in one clear sentence, then connect it to your background and future goals.",
-        "imageUrl": "https://images.unsplash.com/photo-1574100004472-e536d3b6bacc?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Keep your explanation consistent with your documents, because confidence matters less than accuracy and clarity.",
-        "imageUrl": "https://images.unsplash.com/photo-1574100004472-e536d3b6bacc?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "Speak simply about your finances, university choice, and return plan, so your answers stay natural and believable.",
-        "imageUrl": "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-202",
-    "durationInSeconds": 16,
-    "caption": "Part-time work abroad is useful, but only if you manage it like a student first and a worker second.",
-    "audioUrl": "music/Coolio - Gangsta's Paradise (feat. L.V.).mp3",
-    "scenes": [
-      {
-        "text": "Choose shifts that do not damage your attendance, assignment deadlines, or exam preparation.",
+        "text": "Finally, explain why this particular university and program are the perfect fit. Mention professors or courses you admire, and show that you have done your homework. End with your vision for the future.",
         "imageUrl": "https://images.unsplash.com/photo-1604136514790-b27086f6c36e?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-209",
+    "durationInSeconds": 16,
+    "caption": "Visa interview tips: Common questions and how to answer confidently.",
+    "audioUrl": "music/Aicha (Afro Soul).mp3",
+    "scenes": [
+      {
+        "text": "During your UK student visa interview, you will likely be asked about your study plans. Be clear about your course, university, and why you chose the UK. Do not memorize scripts, but practice naturally.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Track your income and expenses each week, because small overspending habits can cancel out your earnings.",
-        "imageUrl": "https://images.unsplash.com/photo-1600195077077-7c815f540a3d?q=80&w=1080&h=1920&fit=crop"
+        "text": "Another common question is about your finances. Have your bank statements ready and explain how you will cover tuition and living expenses. Show that you have planned for one year in advance.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332598451-8a0a59941912?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Use your job to build communication, teamwork, and time management skills that help after graduation too.",
+        "text": "Finally, expect questions about your intent to return home. Be honest about your career plans and how your degree will help in your home country. Confidence and clarity go a long way.",
+        "imageUrl": "https://images.unsplash.com/photo-1562349275-f5e7360af2dd?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-210",
+    "durationInSeconds": 16,
+    "caption": "UK student life: What to expect your first month.",
+    "audioUrl": "music/Alex Warren - Ordinary (Lyrics).mp3",
+    "scenes": [
+      {
+        "text": "Your first month in the UK is exciting but also overwhelming. Make sure to register with a local doctor once you get your address, as the NHS requires you to sign up for healthcare.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332611476-6ec2ba68049f?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Another key step is opening a UK bank account. Many banks offer student accounts with no fees, and you will need one for rent and part-time wages. Start this process early.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332611476-6ec2ba68049f?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Also, explore your campus and city before classes start. Join a few student societies to meet people and get oriented. Remember, it is fine to feel homesick, but stay connected with family and new friends.",
         "imageUrl": "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "reel-203",
+    "id": "reel-211",
     "durationInSeconds": 16,
-    "caption": "Your study abroad plan becomes stronger when every document tells the same story.",
+    "caption": "Canada part-time jobs: How to earn while studying.",
+    "audioUrl": "music/Amy Winehouse - Back To Black.mp3",
+    "scenes": [
+      {
+        "text": "International students in Canada can work up to twenty hours per week during term time and full time during breaks. This is a great way to gain experience and offset living expenses.",
+        "imageUrl": "https://images.unsplash.com/photo-1577643445874-a41763059685?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Popular student jobs include positions in retail, food service, and on-campus roles like library assistant or teaching assistant. Apply early as competition can be high at the start of the semester.",
+        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Remember that you need a Social Insurance Number to work. Apply for it immediately after arriving, and always ensure your employer knows you are on a study permit. Budget your time wisely.",
+        "imageUrl": "https://images.unsplash.com/photo-1658235081562-a7f50e7e05b6?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-212",
+    "durationInSeconds": 16,
+    "caption": "Scholarship hacks: Use university portals effectively.",
+    "audioUrl": "music/Bakermat - Baianá (Official Video).mp3",
+    "scenes": [
+      {
+        "text": "Most UK and Canadian universities have an online scholarship portal that lists all available funding. But many students ignore filters. Use keywords like your course name, nationality, and academic level.",
+        "imageUrl": "https://images.unsplash.com/photo-1537888692311-8a7fb3e9f374?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Also look for scholarships that are open to all international students, not just specific countries. Some universities have awards for top performers in certain subjects, so check your department page.",
+        "imageUrl": "https://images.unsplash.com/photo-1658235081562-a7f50e7e05b6?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Another tip is to apply for multiple smaller scholarships. They add up and can cover your living costs. Set a calendar reminder for deadlines each month, because missing a date means missing the opportunity.",
+        "imageUrl": "https://images.unsplash.com/photo-1600195077077-7c815f540a3d?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-213",
+    "durationInSeconds": 16,
+    "caption": "SOP mistakes to avoid for graduate applications.",
+    "audioUrl": "music/Benson Boone - Beautiful Things (Official Music Video).mp3",
+    "scenes": [
+      {
+        "text": "One common mistake is writing a generic statement that could apply to any university. Admissions officers can tell when you copy paste. Always tailor each SOP to the specific program.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332611514-238856b76198?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Another error is focusing too much on achievements without explaining your motivation. Instead of listing grades, describe a challenge you overcame and how it shaped your academic interests.",
+        "imageUrl": "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Finally, avoid negative language about your home country or previous institution. Keep the tone positive and forward looking. Have someone proofread for spelling and clarity before submitting.",
+        "imageUrl": "https://images.unsplash.com/photo-1597920940566-a77511f9327d?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-214",
+    "durationInSeconds": 16,
+    "caption": "Visa tips: Proof of funds requirements for UK.",
+    "audioUrl": "music/Carry me home.mp3",
+    "scenes": [
+      {
+        "text": "To get a UK student visa, you need to show you have enough money for tuition and living costs. For courses in London, you need about thirteen hundred pounds per month for up to nine months.",
+        "imageUrl": "https://images.unsplash.com/photo-1622470190232-81df3782484b?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Outside London, the requirement is slightly lower, around one thousand pounds per month. This money must be held in your bank account for at least twenty eight consecutive days before applying.",
+        "imageUrl": "https://images.unsplash.com/photo-1605299670824-00515e81b924?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Remember that scholarships or student loans can be used as proof, but you must provide official letters. Double check the latest rules on the government website, as amounts can change annually.",
+        "imageUrl": "https://images.unsplash.com/photo-1605299670824-00515e81b924?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-215",
+    "durationInSeconds": 16,
+    "caption": "UK accommodation: Halls vs private renting?",
+    "audioUrl": "music/Coldplay - Hymn For The Weekend (Official Video).mp3",
+    "scenes": [
+      {
+        "text": "First year students often choose university halls because they include utilities, internet, and are close to campus. This makes settling in easier, especially if you arrive from abroad.",
+        "imageUrl": "https://images.unsplash.com/photo-1471974507711-fe913f4b4509?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Private renting can be cheaper if you share with friends, but you have to manage bills and contracts yourself. Always check the tenancy agreement and inventory before signing.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Whichever you choose, factor in location, safety, and the length of the tenancy. Some halls offer cancellation options if your visa is refused, which is a smart safety net.",
+        "imageUrl": "https://images.unsplash.com/photo-1604136514790-b27086f6c36e?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-216",
+    "durationInSeconds": 16,
+    "caption": "Canada student life: Winter preparation tips.",
+    "audioUrl": "music/Coolio - Gangsta's Paradise (feat. L.V.).mp3",
+    "scenes": [
+      {
+        "text": "Canadian winters can be harsh, especially if you come from a warm country. Invest in a good quality winter coat, waterproof boots, gloves, and a hat. Thermal layers are essential.",
+        "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Learn how to dress in layers: a base layer, a middle insulating layer, and a windproof outer layer. Also, keep your phone charged because cold weather drains batteries faster.",
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "During winter, daylight hours are shorter. Stay active and try to get sunlight when possible. Many campuses have underground tunnels or indoor walkways to move between buildings comfortably.",
+        "imageUrl": "https://images.unsplash.com/photo-1605299670824-00515e81b924?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-217",
+    "durationInSeconds": 16,
+    "caption": "Part-time job strategies: How to land a job on campus.",
     "audioUrl": "music/DERNIÈRE DANSE - Afro-Soul Cover (Goosebumps).mp3",
     "scenes": [
       {
-        "text": "Make sure your SOP, academic records, work history, and financial documents all support one clear academic direction.",
-        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "If there are gaps or changes in your profile, explain them honestly and briefly instead of leaving them unexplained.",
-        "imageUrl": "https://images.unsplash.com/photo-1537202108838-e7072bad1927?q=80&w=1080&h=1920&fit=crop"
-      },
-      {
-        "text": "A consistent application gives admissions and visa teams fewer reasons to question your intent.",
-        "imageUrl": "https://images.unsplash.com/photo-1551485645-e499a58eab2c?q=80&w=1080&h=1920&fit=crop"
-      }
-    ]
-  },
-  {
-    "id": "reel-204",
-    "durationInSeconds": 16,
-    "caption": "Europe can be a smart choice when students understand how to compare costs, language, and career value.",
-    "audioUrl": "music/Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers.mp3",
-    "scenes": [
-      {
-        "text": "Look beyond tuition and compare housing, transport, food, and city expenses before choosing a destination.",
+        "text": "On campus jobs are popular because they are convenient and understand student schedules. Check your university career portal regularly and visit the career center for resume help.",
         "imageUrl": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Check whether your program is taught in English or requires another language, because that changes both preparation and daily life.",
+        "text": "When you apply, emphasize skills like time management, communication, and customer service. Even a part time job in the library can build great references for future employment.",
         "imageUrl": "https://images.unsplash.com/photo-1563265500-fa2ff1f4fc9d?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Pick a country that supports your long-term goals, not just the one that looks popular on social media.",
-        "imageUrl": "https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?q=80&w=1080&h=1920&fit=crop"
+        "text": "Also consider becoming a student ambassador or research assistant. These roles often look great on your CV and can lead to full time opportunities after graduation. Start applying before term begins.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332611476-6ec2ba68049f?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   },
   {
-    "id": "reel-205",
+    "id": "reel-218",
     "durationInSeconds": 16,
-    "caption": "The fastest way to improve your application is not by doing more. It is by doing the right things early.",
+    "caption": "Scholarship hacks: Writing winning essays.",
+    "audioUrl": "music/Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers.mp3",
+    "scenes": [
+      {
+        "text": "Scholarship essays are different from SOPs. They often ask about your community involvement or leadership. Think of a specific example where you made a difference, and describe the impact.",
+        "imageUrl": "https://images.unsplash.com/photo-1558021211-6d1403321394?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Use the STAR method: Situation, Task, Action, Result. This structure makes your story clear and compelling. Avoid clichés like I want to change the world, instead show concrete steps you have taken.",
+        "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Finally, connect your past actions to how the scholarship will help you achieve future goals. Be sincere and passionate. Always have someone from a different background read it for clarity.",
+        "imageUrl": "https://images.unsplash.com/photo-1773332611612-ffdaa753afb1?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-219",
+    "durationInSeconds": 16,
+    "caption": "Visa tips: Biometrics appointment checklist.",
     "audioUrl": "music/Dernière Danse (Afro Soul).mp3",
     "scenes": [
       {
-        "text": "Start with a timeline for tests, shortlisting, SOP writing, and document collection so you never rush the process.",
-        "imageUrl": "https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?q=80&w=1080&h=1920&fit=crop"
+        "text": "For your UK visa, you will need to book a biometrics appointment at a visa application centre. Bring your passport, appointment confirmation, and the checklist from your online application.",
+        "imageUrl": "https://images.unsplash.com/photo-1448584109583-8f5fe2e61544?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Ask for feedback on your SOP and profile from someone who understands admissions, because self-review can miss weak points.",
-        "imageUrl": "https://images.unsplash.com/photo-1773332611612-ffdaa753afb1?q=80&w=1080&h=1920&fit=crop"
+        "text": "At the centre, you will provide fingerprints and a photograph. Make sure your hands are clean and free of cuts or bandages. Also, dress smartly as the photo will appear on your visa.",
+        "imageUrl": "https://images.unsplash.com/photo-1581362072978-14998d01fdaa?q=80&w=1080&h=1920&fit=crop"
       },
       {
-        "text": "Treat your application like a project with clear deadlines, and your chances of success become much easier to manage.",
-        "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1080&h=1920&fit=crop"
+        "text": "After biometrics, you may need to submit your passport for processing. Choose a courier service to get it back quickly. Keep a copy of all documents for tracking and future reference.",
+        "imageUrl": "https://images.unsplash.com/photo-1622470190232-81df3782484b?q=80&w=1080&h=1920&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "reel-220",
+    "durationInSeconds": 16,
+    "caption": "UK student banking: Best accounts and how to open one.",
+    "audioUrl": "music/Desert Rose - Afro Soul - 2026 Tik Tok Version.mp3",
+    "scenes": [
+      {
+        "text": "As an international student in the UK, you can open a bank account without a credit history. Look for student accounts with no monthly fees and perks like a free railcard or overdraft.",
+        "imageUrl": "https://images.unsplash.com/photo-1494809610410-160faaed4de0?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "To open an account, you typically need your passport, a university acceptance letter, and proof of address. Some banks allow you to start the process online before you arrive.",
+        "imageUrl": "https://images.unsplash.com/photo-1563265500-fa2ff1f4fc9d?q=80&w=1080&h=1920&fit=crop"
+      },
+      {
+        "text": "Compare options from major banks like HSBC, Barclays, and Santander. Some also offer international transfer discounts. Once opened, use your account for rent payments and avoid carrying cash.",
+        "imageUrl": "https://images.unsplash.com/photo-1494809610410-160faaed4de0?q=80&w=1080&h=1920&fit=crop"
       }
     ]
   }

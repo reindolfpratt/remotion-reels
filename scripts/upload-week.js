@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
-const weekData = JSON.parse(fs.readFileSync('./src/data/week1.json', 'utf8'));
+const weekData = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../src/data/week1.json'), 'utf8'));
 
 const captions = {
   'kickoff-global': "70% of students wish they'd started 6 months earlier. Don't be one of them. Your global education journey starts now. 🌍🎓 #StudyAbroad #CohbyConsult #GlobalEducation",
@@ -26,11 +26,36 @@ const captions = {
 };
 
 async function uploadAll() {
-  // First wipe the queue
-  await supabase.from('cohby_consult_content_queue').delete().neq('status', 'nonexistent');
-  console.log('🗑️  Cleared existing queue');
+  console.log('🔍 Checking existing queue for latest schedule...');
+  
+  let startFromNow = true;
+  let baseTime = new Date();
 
-  const NOW = new Date();
+  try {
+    const { data: latestVideos, error: fetchError } = await supabase
+      .from('cohby_consult_content_queue')
+      .select('scheduled_at')
+      .order('scheduled_at', { ascending: false })
+      .limit(1);
+
+    if (fetchError) {
+      console.error('⚠️ Error fetching latest scheduled video:', fetchError.message);
+    } else if (latestVideos && latestVideos.length > 0) {
+      const latestDate = new Date(latestVideos[0].scheduled_at);
+      if (latestDate > new Date()) {
+        baseTime = latestDate;
+        startFromNow = false;
+        console.log(`📅 Found active queue. Future videos will be scheduled starting after the latest one: ${latestDate.toISOString()}`);
+      } else {
+        console.log(`📅 Latest scheduled video was in the past (${latestDate.toISOString()}). Scheduling starting from now.`);
+      }
+    } else {
+      console.log('📅 Queue is empty. Scheduling starting from now.');
+    }
+  } catch (err) {
+    console.error('⚠️ Unexpected error fetching latest schedule:', err.message);
+  }
+
   const rows = [];
   let successfulIndex = 0;
 
@@ -61,9 +86,14 @@ async function uploadAll() {
       .getPublicUrl(filename);
 
     // Schedule each video 12 hours apart to fit 2 per day
-    const scheduledAt = successfulIndex === 0
-      ? new Date(NOW.getTime() - 5 * 60000).toISOString()
-      : new Date(NOW.getTime() + (successfulIndex * 12 * 60 * 60 * 1000)).toISOString();
+    let scheduledAt;
+    if (startFromNow) {
+      scheduledAt = successfulIndex === 0
+        ? new Date(baseTime.getTime() - 5 * 60000).toISOString()
+        : new Date(baseTime.getTime() + (successfulIndex * 12 * 60 * 60 * 1000)).toISOString();
+    } else {
+      scheduledAt = new Date(baseTime.getTime() + ((successfulIndex + 1) * 12 * 60 * 60 * 1000)).toISOString();
+    }
       
     successfulIndex++;
 
@@ -75,7 +105,12 @@ async function uploadAll() {
       social_caption: video.caption || `Cohby Consult 🌍 #StudyAbroad #Education`
     });
 
-    console.log(`✅ Uploaded ${filename}`);
+    console.log(`✅ Uploaded ${filename} (Scheduled for ${scheduledAt})`);
+  }
+
+  if (rows.length === 0) {
+    console.log('⚠️ No videos were uploaded.');
+    return;
   }
 
   const { error: insertError } = await supabase.from('cohby_consult_content_queue').insert(rows);
